@@ -1,0 +1,3 @@
+CREATE DATABASE gesresfamilydb;
+CREATE USER gesresuser IDENTIFIED BY 'gesresuser1234';
+GRANT ALL PRIVILEGES ON gesresfamilydb.* TO gesresuser;
