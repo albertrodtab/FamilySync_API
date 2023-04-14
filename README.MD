@@ -9,18 +9,18 @@ para un centro residencial de atención a personas mayores.
 
 * Diseña la API y escribe el fichero OpenAPI 3.0 de la API. Incluye, al menos, los casos de éxito (20X), 400, 404 y los 500.
 * Diseña una API Virtual de forma que existan, al menos, 3 Casos de Uso para cada operación (uno de OK y otro para KO).
-      Aquí se puede consultar la API Virtual realizada con WireMock
-      https://github.com/albertrodtab/Virtual-GesResFamilyAPI
+      * Aquí se puede consultar la API Virtual realizada con WireMock
+      * https://github.com/albertrodtab/Virtual-GesResFamilyAPI
 
 * Prepara una colección Postman de prueba para la API diseñada y otra que permita probar todos los Casos de Uso de la API virtual
 * Diseña, al menos, 3 operaciones para que funcionen de forma reactiva con WebFlux.
-      Aquí se puede consultar la Version Reactiva de la API 
-      https://github.com/albertrodtab/GesResFamilyAPI-Reactive
+      * Aquí se puede consultar la Version Reactiva de la API 
+      * https://github.com/albertrodtab/GesResFamilyAPI-Reactive
 * Ajusta el desarrollo de tu proyecto para que cumpla todas las decisiones de diseño adoptadas en los puntos anteriores
 
 
 ### Otras funcionalidades (1 pto cada una)
-##### *IMPLEMENTADO*
+
 * Si tu API está securizada, añade la información necesaria al fichero OpenAPI 3.0
 * Añade alguna operación en la que se envien o reciban ficheros
 * Parametriza ambas colecciones Postman de forma que sea fácil cambiar el host, puerto o basePath de la API
