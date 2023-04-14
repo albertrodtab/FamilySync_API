@@ -36,7 +36,7 @@ public class CentroController {
 
     }
 
-    @GetMapping("/centros/{id}")
+    @GetMapping("/centro/{id}")
     public ResponseEntity<Centro> getCentro (@PathVariable long id) throws CentroNotFoundException {
         logger.info("Inicio getCentro");
         Centro centro = centroService.findById(id);
@@ -46,14 +46,13 @@ public class CentroController {
 
     @GetMapping("/centros")
     public ResponseEntity<List<Centro>> getCentros(
-            @RequestParam(name = "nombre", required = false) String nombre,
-            @RequestParam(name = "numRegistro", required = false) String numRegistro,
-            @RequestParam(name = "email", required = false) String email,
-            @RequestParam(name = "all", defaultValue = "true") boolean all){
+            @RequestParam(name = "nombre", required = false, defaultValue = "") String nombre,
+            @RequestParam(name = "numRegistro", required = false, defaultValue = "") String numRegistro,
+            @RequestParam(name = "email", required = false, defaultValue = "") String email){
         logger.info("Inicio getCentros");
         List<Centro> centros;
 
-        if(all){
+       if(nombre.equals("") && numRegistro.equals("") && email.equals("")){
             logger.info("Muestra todos los centros");
             centros = centroService.findAll();
         } else {
@@ -64,7 +63,7 @@ public class CentroController {
         return ResponseEntity.ok(centros);
     }
 
-    @DeleteMapping("/centros/{id}")
+    @DeleteMapping("/centro/{id}")
     public ResponseEntity<Void> removeCentro(@PathVariable long id) throws CentroNotFoundException {
         logger.info("Inicio removeCentro");
         centroService.removeCentro(id);
@@ -72,7 +71,7 @@ public class CentroController {
         return ResponseEntity.noContent().build();
     }
 
-    @PutMapping("/centros/{id}")
+    @PutMapping("/centro/{id}")
     public ResponseEntity<Centro> modifyCentro(@RequestBody Centro centro, @PathVariable long id)
             throws CentroNotFoundException{
         logger.info("Inicio modifyCentro");
@@ -116,12 +115,12 @@ public class CentroController {
         return ResponseEntity.badRequest().body(ErrorResponse.validationError(errors));
     }
 
-    @ExceptionHandler(BadRequestException.class)
+    /*@ExceptionHandler(BadRequestException.class)
     public ResponseEntity<ErrorResponse> handleBadRequestException(BadRequestException bre) {
         logger.error(bre.getMessage(), bre);
         logger.error(Arrays.toString(bre.getStackTrace()));
         return ResponseEntity.badRequest().body(ErrorResponse.badRequest(bre.getMessage()));
-    }
+    }*/
 
     @ExceptionHandler(CentroNotFoundException.class)
     public ResponseEntity<ErrorResponse> handleCentroNotFoundException(CentroNotFoundException cnfe) {

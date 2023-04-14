@@ -23,10 +23,12 @@ public class Plan {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @Column(name = "nombre_plan")
-    @NotNull(message="El nombre del centro es obligatorio")
-    @NotBlank(message = "El nombre del centro no puede estar vacío")
+    @NotNull(message="El nombre del plan es obligatorio")
+    @NotBlank(message = "El nombre del plan no puede estar vacío")
     private String nombrePlan;
     @Column
+    @NotBlank(message = "El nombre de la terapia es obligatorio")
+    @NotBlank(message = "El nombre de la terapia no puede estar vacío")
     private String terapia;
     @Column (name = "fecha_inicio")
     @JsonFormat(pattern = "dd-MM-yyyy")
@@ -37,6 +39,7 @@ public class Plan {
     @Column
     private Boolean importante;
     @Column
+    @NotBlank(message = "La descripción de la terapia no puede estar vacía")
     @Length(min= 6)
     private String descripcion;
 

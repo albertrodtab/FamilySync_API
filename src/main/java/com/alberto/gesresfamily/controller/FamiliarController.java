@@ -42,7 +42,7 @@ public class FamiliarController {
     /*
     * Relacionar un familiar con un residente
      */
-    @PostMapping("/familiares/{familiarId}/residentes/{residenteId}")
+    @PostMapping("/familiar/{familiarId}/residente/{residenteId}")
     public ResponseEntity<Response> relacion(@RequestBody RelacionDTO relacionDTO)
             throws FamiliarNotFoundException, ResidenteNotFoundException {
         logger.info("Inicio relacion");
@@ -59,7 +59,7 @@ public class FamiliarController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
-    @GetMapping("/familiares/{id}")
+    @GetMapping("/familiar/{id}")
     public ResponseEntity<Familiar> getFamiliar (@PathVariable long id) throws FamiliarNotFoundException {
         Familiar familiar = familiarService.findFamiliar(id);
         return ResponseEntity.ok(familiar);
@@ -67,14 +67,13 @@ public class FamiliarController {
 
     @GetMapping("/familiares")
     public ResponseEntity<List<Familiar>> getFamiliares (
-            @RequestParam(name = "nombre", required = false) String nombre,
-            @RequestParam(name = "dni", required = false) String dni,
-            @RequestParam(name = "telefono", required = false) String telefono,
-            @RequestParam(name = "all", defaultValue = "true") boolean all){
+            @RequestParam(name = "nombre", required = false, defaultValue = "") String nombre,
+            @RequestParam(name = "dni", required = false, defaultValue = "") String dni,
+            @RequestParam(name = "telefono", required = false, defaultValue = "") String telefono){
         logger.info("Inicio getFamiliares");
         List<Familiar> familiares;
 
-        if(all){
+        if(nombre.equals("") && dni.equals("") && telefono.equals("")){
             logger.info("Muestra todos los familiares");
             familiares = familiarService.findAllFamiliares();
         } else {
@@ -87,7 +86,7 @@ public class FamiliarController {
 
 
 
-    @DeleteMapping("/familiares/{id}")
+    @DeleteMapping("/familiar/{id}")
     public ResponseEntity<Void> removeFamiliar (@PathVariable long id) throws FamiliarNotFoundException{
         logger.info("Inicio removeFamiliar");
         Familiar familiar = familiarService.removeFamiliar(id);
@@ -95,7 +94,7 @@ public class FamiliarController {
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
 
-    @PutMapping("/familiares/{id}")
+    @PutMapping("/familiar/{id}")
     public ResponseEntity<Familiar> modifyFamiliar(@RequestBody Familiar familiar, @PathVariable long id) throws FamiliarNotFoundException{
         logger.info("Inicio modifyFamiliar");
         Familiar newFamiliar = familiarService.modifyFamiliar(id, familiar);

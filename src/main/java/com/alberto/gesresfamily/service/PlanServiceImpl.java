@@ -60,8 +60,8 @@ public class PlanServiceImpl implements PlanService{
     }
 
     @Override
-    public List<Plan> findAllPlanes(long id, String nombrePlan, boolean importante) {
-        return planRepository.findByIdOrNombrePlanOrImportante(id, nombrePlan, importante);
+    public List<Plan> findAllPlanes(String terapia, String nombrePlan, String descripcion) {
+        return planRepository.findByTerapiaOrNombrePlanOrDescripcion(terapia, nombrePlan, descripcion);
     }
 
     @Override

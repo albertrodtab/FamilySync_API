@@ -42,7 +42,7 @@ public class PlanController {
         return ResponseEntity.status(HttpStatus.CREATED).body(newPlan);
     }
 
-    @PostMapping("/planes/{planId}/residentes/{residenteId}")
+    @PostMapping("/plan/{planId}/residente/{residenteId}")
     public ResponseEntity<Response> participa (@RequestBody ParticipaDTO participaDTO)
             throws PlanNotFoundException, ResidenteNotFoundException {
         logger.info("Inicio participa");
@@ -53,13 +53,13 @@ public class PlanController {
         planService.addParticipa(residente, plan);
 
 
-        Response response = new Response("1", "Residente añadido al Plan " +
+        Response response = new Response("2", "Residente añadido al Plan " +
                 participaDTO.getPlanId());
         logger.info("Fin participa");
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
-    @GetMapping("/planes/{id}")
+    @GetMapping("/plan/{id}")
     public ResponseEntity<Plan> getPlan (@PathVariable long id) throws PlanNotFoundException {
         Plan plan = planService.findPlan(id);
         return ResponseEntity.ok(plan);
@@ -67,24 +67,24 @@ public class PlanController {
 
     @GetMapping("/planes")
     public ResponseEntity<List<Plan>> getPlanes (
-            @RequestParam(name = "id", defaultValue = "0") long id,
-            @RequestParam(name = "nombre", required = false) String nombrePlan,
-            @RequestParam(name = "importante", required = false) boolean importante,
-            @RequestParam(name = "all", defaultValue = "true") boolean all){
+            @RequestParam(name = "terapia", required = false, defaultValue = "") String terapia,
+            @RequestParam(name = "nombre", required = false, defaultValue = "") String nombrePlan,
+            @RequestParam(name = "descripcion", required = false, defaultValue = "") String descripcion){
+
         logger.info("Inicio getPlanes");
         List<Plan> planes;
 
-        if(all){
+        if(terapia.equals("") && nombrePlan.equals("") && descripcion.equals("")){
             logger.info("Muestra todos los planes");
             planes = planService.findAllPlanes();
         } else {
             logger.info("Muestra los planes que cumplen alguno de los parámetros.");
-            planes = planService.findAllPlanes(id, nombrePlan, importante);
+            planes = planService.findAllPlanes(terapia, nombrePlan, descripcion);
         }
         return ResponseEntity.ok(planes);
     }
 
-    @DeleteMapping("/planes/{id}")
+    @DeleteMapping("/plan/{id}")
     public ResponseEntity<Void> removePlan (@PathVariable long id) throws PlanNotFoundException{
         logger.info("Inicio removePlan");
         Plan plan = planService.removePlan(id);
@@ -92,7 +92,7 @@ public class PlanController {
         return ResponseEntity.noContent().build();
     }
 
-    @PutMapping("/planes/{id}")
+    @PutMapping("/plan/{id}")
     public ResponseEntity<Plan> modifyPlan(@RequestBody Plan plan, @PathVariable long id) throws PlanNotFoundException{
         Plan newPlan = planService.modifyPlan(id, plan);
         logger.info("Fin modifyPlan");

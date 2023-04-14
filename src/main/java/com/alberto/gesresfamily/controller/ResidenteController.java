@@ -40,7 +40,7 @@ public class ResidenteController {
         return newResidente;
     }
     //Consultar residente por id
-    @GetMapping("/residentes/{id}")
+    @GetMapping("/residente/{id}")
     public ResponseEntity<Residente> getResidente (@PathVariable long id) throws ResidenteNotFoundException {
         Residente residente = residenteService.findResidente(id);
         return ResponseEntity.ok(residente);
@@ -48,24 +48,24 @@ public class ResidenteController {
     //Consultar residentes
     @GetMapping("/residentes")
     public ResponseEntity<List<Residente>> getResidentes(
-            @RequestParam(name = "id", defaultValue = "0") long id,
-            @RequestParam(name = "nombre", required = false) String nombre,
-            @RequestParam(name = "dni", required = false) String dni,
-            @RequestParam(name = "all", defaultValue = "true") boolean all){
+            @RequestParam(name = "apellidos", defaultValue = "") String apellidos,
+            @RequestParam(name = "nombre", required = false,defaultValue = "") String nombre,
+            @RequestParam(name = "dni", required = false, defaultValue = "") String dni){
+
         logger.info("Inicio getResidentes");
         List<Residente> residentes;
 
-        if(all){
+        if(apellidos.equals("") && nombre.equals("") && dni.equals("")){
             logger.info("Muestra todos los residentes");
             residentes = residenteService.findAllResidentes();
         } else {
             logger.info("Muestra los residentes que cumplen los parámetros de búsqueda");
-            residentes = residenteService.findAllResidentes(id, nombre, dni);
+            residentes = residenteService.findAllResidentes(apellidos, nombre, dni);
         }
         return ResponseEntity.ok(residentes);
     }
     //Eliminar Residente
-    @DeleteMapping("/residentes/{id}")
+    @DeleteMapping("/residente/{id}")
     public ResponseEntity<Void> removeResidente (@PathVariable long id) throws ResidenteNotFoundException{
         logger.info("Inicio removeResidente");
         Residente residente = residenteService.removeResidente(id);
@@ -74,7 +74,7 @@ public class ResidenteController {
     }
 
     //Modificar residente
-    @PutMapping("/residentes/{id}")
+    @PutMapping("/residente/{id}")
     public ResponseEntity<Residente> modifyResidente(@RequestBody Residente residente, @PathVariable long id) throws ResidenteNotFoundException{
         logger.info("Inicio modifyResidente");
         Residente newResidente = residenteService.modifyResidente(id, residente);
@@ -92,7 +92,7 @@ public class ResidenteController {
     }
 
     // Consultar los residentes con una saldo inferior a una cifra determinada. SQL
-    @GetMapping("/residente/{saldo}")
+    @GetMapping("/residentes/{saldo}")
     public List<Residente> saldoMenor (@PathVariable float saldo) {
         logger.info("Inicio saldoMenor " + saldo);
         List<Residente> residentes = null;
