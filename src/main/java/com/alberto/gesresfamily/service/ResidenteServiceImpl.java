@@ -86,8 +86,8 @@ public class ResidenteServiceImpl implements ResidenteService{
     }
 
     @Override
-    public List<Residente> findAllResidentes(long id, String nombre, String dni) {
-        return residenteRepository.findAllResidentesByIdOrNombreOrDni(id,nombre, dni);
+    public List<Residente> findAllResidentes(String apellidos, String nombre, String dni) {
+        return residenteRepository.findAllResidentesByApellidosOrNombreOrDni(apellidos,nombre, dni);
     }
 
     @Override

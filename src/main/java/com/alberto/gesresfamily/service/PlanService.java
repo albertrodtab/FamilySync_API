@@ -25,7 +25,7 @@ public interface PlanService {
 
     void addParticipa(Residente residente, Plan plan);
 
-    List<Plan> findAllPlanes(long id, String nombrePlan, boolean importante);
+    List<Plan> findAllPlanes(String terapia, String nombrePlan, String descripcion);
 
     Plan patchPlan(long id, boolean importante) throws PlanNotFoundException;
 

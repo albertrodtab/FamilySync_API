@@ -1,0 +1,1980 @@
+openapi: "3.0.3"
+servers:
+  - url: https://localhost:8080
+info:
+  version: "1.0.0"
+  title: "GesResFamilyApi"
+  description: Api para gestionar la base de datos de un centro residencial
+
+tags:
+  - name: Centros
+    description: Operaciones con centros.
+  - name: Residentes
+    description: Operaciones con residentes.
+  - name: Familiares
+    description: Operaciones con familiares.
+  - name: Planes
+    description: Operaciones con planes.
+  - name: Profesionales
+    description: Operaciones con profesionales.
+
+paths:
+  /centros:
+    get:
+      tags:
+        - Centros
+      summary: Lista de centros.
+      description: Muestra una lista de centros.
+      operationId: getCentros
+      parameters:
+        - name: nombre
+          in: query
+          description: nombre del centro
+          required: false
+          schema:
+            type: string
+            example: "Centro de día Lalín"
+        - name: numRegistro
+          in: query
+          description: número de registro
+          required: false
+          schema:
+            type: string
+            example: "G1502020"
+        - name: email
+          in: query
+          description: email del centro
+          required: false
+          schema:
+            type: string
+            example: "exampleLalin@email.com"
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Centro"
+              example:
+              - id: 1
+                nombre: "Centro de Día Lalín"
+                direccion: "Filgueiroa N60, Donramiro"
+                numRegistro: "G1502020"
+                email: "exampleLalin@email.com"
+                telefono: "123456789"
+                
+              - id: 2
+                nombre: "Centro de Día Vigo"
+                direccion: "Garcia Barbon N60, Vigo"
+                numRegistro: "G4578962"
+                email: "exampleVigo@email.com"
+                telefono: "987654321"
+
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    post:
+      tags:
+        - Centros
+      summary: Insertar un centro
+      description: Añadir un nuevo centro a la base de datos.
+      operationId: addCentro
+      requestBody:
+        description: Crea un nuevo centro
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CentroIn'
+      responses:
+        '201':
+          description: Se ha registrado correctamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Centro'
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestValidation'
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+  /centro/{id}:
+    get:
+      tags:
+        - Centros
+      summary: Muestra un centro
+      description: Muestra la información de un centro determinado por su ID.
+      operationId: getCentro
+      parameters:
+        - name: id
+          in: path
+          description: Id del centro
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                  $ref: "#/components/schemas/Centro"
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    delete:
+      tags:
+        - Centros
+      summary: Elimina un centro
+      description: Elimina la información de un centro determinado por su ID.
+      operationId: deleteCentro
+      parameters:
+        - name: id
+          in: path
+          description: Id del centro
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        204:
+          description: No content
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    put:
+      tags:
+        - Centros
+      summary: Modificar un centro
+      description: Modificar la infomación de centro en la base de datos.
+      operationId: modifyCentro
+      parameters:
+        - name: id
+          in: path
+          description: Id del centro
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      requestBody:
+        description: Nuevos datos del centro
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Centro'
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Centro'
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestValidation'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+    patch:
+      tags:
+        - Centros
+      summary: Modificar telefono del centro
+      description: Modificar el dato de teléfono del centro en la base de datos.
+      operationId: patchCentro
+      parameters:
+        - name: id
+          in: path
+          description: Id del centro
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      requestBody:
+        description: Nuevos datos del centro
+        required: true
+        content:
+          application/json:
+            schema:
+              type: string
+              example: 987456123
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Centro'
+              example:
+                - id: 1
+                  nombre: "Centro de Día Lalín"
+                  direccion: "Filgueiroa N60, Donramiro"
+                  numRegistro: "G1502020"
+                  email: "exampleLalin@email.com"
+                  telefono: "987456123"
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+  /centro/{id}/numResidentes:
+    get:
+      tags:
+        - Centros
+      summary: Total residentes del centro
+      description: Muestra el número total de residentes de un centro
+      operationId: getTotalResidentes
+      parameters:
+        - name: id
+          in: path
+          description: Id del centro
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                type: number
+                format: int64
+                example: 56
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+
+  /residentes:
+    get:
+      tags:
+        - Residentes
+      summary: Lista de Residentes.
+      description: Muestra una lista de Residentes.
+      operationId: getResidentes
+      parameters:
+        - name: apellidos
+          in: query
+          description: apellidos del residente
+          required: false
+          schema:
+            type: string
+            example: "Rodríguez Castro"
+        - name: nombre
+          in: query
+          description: nombre del residente
+          required: false
+          schema:
+            type: string
+            example: "Victorino"
+        - name: dni
+          in: query
+          description: dni del residente
+          required: false
+          schema:
+            type: string
+            example: "744091652P"
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Residente"
+              example:
+                - id: 1
+                  nombre: "Victorino"
+                  apellidos: "Rodriguez Castro"
+                  dni: "44091652P"
+                  fechaNacimiento: 15-06-1944
+                  sexo: "M"
+                  Saldo: 55.68
+
+                - id: 2
+                  nombre: "Maria Rosa"
+                  apellidos: "Taboada Saa"
+                  dni: "78945612A"
+                  fechaNacimiento: 15-06-1947
+                  sexo: "F"
+                  Saldo: 145.68
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    post:
+      tags:
+        - Residentes
+      summary: Insertar un residente
+      description: Añadir un nuevo residente a la base de datos.
+      operationId: addResidente
+      requestBody:
+        description: Crea un nuevo residente
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ResidenteIn'
+      responses:
+        '201':
+          description: Se ha registrado correctamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Residente'
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestValidation'
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+  /residente/{id}:
+    get:
+      tags:
+        - Residentes
+      summary: Muestra un residente
+      description: Muestra la información de un residente determinado por su ID.
+      operationId: getResidente
+      parameters:
+        - name: id
+          in: path
+          description: Id del residente
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                  $ref: "#/components/schemas/Residente"
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    delete:
+      tags:
+        - Residentes
+      summary: Elimina un residente
+      description: Elimina la información de un residente determinado por su ID.
+      operationId: deleteResidente
+      parameters:
+        - name: id
+          in: path
+          description: Id del residente
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        204:
+          description: No content
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    put:
+      tags:
+        - Residentes
+      summary: Modificar un residente
+      description: Modificar la infomación de un residente en la base de datos.
+      operationId: modifyResidente
+      parameters:
+        - name: id
+          in: path
+          description: Id del residente
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      requestBody:
+        description: Nuevos datos del residente
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Residente'
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Residente'
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestValidation'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+    patch:
+      tags:
+        - Residentes
+      summary: Modificar saldo de un residente
+      description: Modificar el dato de saldo de un residente en la base de datos.
+      operationId: patchResidente
+      parameters:
+        - name: id
+          in: path
+          description: Id del residente
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      requestBody:
+        description: Nuevos datos de saldo
+        required: true
+        content:
+          application/json:
+            schema:
+              type: number
+              format: float
+              example: 80.00
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Residente'
+              example:
+                - id: 1
+                  nombre: "Victorino"
+                  apellidos: "Rodriguez Castro"
+                  dni: "44091652P"
+                  fechaNacimiento: 15-06-1944
+                  sexo: "M"
+                  Saldo: 80.00
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+
+  /residentes/{saldo}:
+    get:
+      tags:
+        - Residentes
+      summary: Lista de residentes
+      description: Muestra una lista de residentes que tiene un saldo inferior al valor introducido
+      operationId: getResidentesSaldoMenor
+      parameters:
+        - name: saldo
+          in: path
+          description: saldo del residente
+          required: true
+          schema:
+            type: number
+            format: float
+            example: 200
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                example:
+                  - id: 1
+                    nombre: "Victorino"
+                    apellidos: "Rodriguez Castro"
+                    dni: "44091652P"
+                    fechaNacimiento: 15-06-1944
+                    sexo: "M"
+                    Saldo: 80.00
+
+                  - id: 2
+                    nombre: "Maria Rosa"
+                    apellidos: "Taboada Saa"
+                    dni: "78945612A"
+                    fechaNacimiento: 15-06-1947
+                    sexo: "F"
+                    Saldo: 145.68
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+  /familiares:
+    get:
+      tags:
+        - Familiares
+      summary: Lista de Familiares.
+      description: Muestra una lista de Familiares
+      operationId: getFamiliares
+      parameters:
+        - name: nombre
+          in: query
+          description: nombre del familiar
+          required: false
+          schema:
+            type: string
+            example: "Alberto"
+        - name: dni
+          in: query
+          description: dni del familiar
+          required: false
+          schema:
+            type: string
+            example: "45698712Q"
+        - name: telefono
+          in: query
+          description: telefono del familiar
+          required: false
+          schema:
+            type: string
+            example: "986685243"
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Familiar"
+              example:
+                - id: 1
+                  nombre: "Alberto"
+                  apellidos: "Rodriguez Taboada"
+                  dni: "45698712Q"
+                  fechaNacimiento: 15-06-1972
+                  telefono: "986685243"
+
+
+                - id: 2
+                  nombre: "Antonio"
+                  apellidos: "Martinez Gonzalez"
+                  dni: "78912345D"
+                  fechaNacimiento: 15-01-1972
+                  telefono: "123456789"
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    post:
+      tags:
+        - Familiares
+      summary: Insertar un familiar
+      description: Añadir un nuevo familiar a la base de datos.
+      operationId: addFamiliar
+      requestBody:
+        description: Crea un nuevo familiar
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FamiliarIn'
+      responses:
+        '201':
+          description: Se ha registrado correctamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Familiar'
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestValidation'
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+  /familiar/{id}:
+    get:
+      tags:
+        - Familiares
+      summary: Muestra un familiar
+      description: Muestra la información de un familiar determinado por su ID.
+      operationId: getFamiliar
+      parameters:
+        - name: id
+          in: path
+          description: Id del familiar
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                  $ref: "#/components/schemas/Familiar"
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    delete:
+      tags:
+        - Familiares
+      summary: Elimina un familiar
+      description: Elimina la información de un familiar determinado por su ID.
+      operationId: deleteFamiliar
+      parameters:
+        - name: id
+          in: path
+          description: Id del familiar
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        204:
+          description: No content
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    put:
+      tags:
+        - Familiares
+      summary: Modificar un familiar
+      description: Modificar la infomación de un familiar en la base de datos.
+      operationId: modifyFamiliar
+      parameters:
+        - name: id
+          in: path
+          description: Id del familiar
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      requestBody:
+        description: Nuevos datos del familiar
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Familiar'
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Familiar'
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestValidation'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+    patch:
+      tags:
+        - Familiares
+      summary: Modificar telefono familiar
+      description: Modificar el dato del telefono de un familiar en la base de datos.
+      operationId: patchFamiliar
+      parameters:
+        - name: id
+          in: path
+          description: Id del familiar
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      requestBody:
+        description: Nuevos datos de telefono
+        required: true
+        content:
+          application/json:
+            schema:
+              type: string
+              example: 986784512
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Familiar'
+              example:
+                - id: 1
+                  nombre: "Alberto"
+                  apellidos: "Rodriguez Taboada"
+                  dni: "45698712Q"
+                  fechaNacimiento: 15-06-1972
+                  telefono: "986784512"
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+
+  /familiar/{familiarId}/residente/{residenteId}:
+    post:
+      tags:
+        - Familiares
+      summary: Relaciona un familiar con un residente
+      description: Permite relacionar familiares con residentes
+      operationId: addRelación
+      parameters:
+        - name: familiarId
+          in: path
+          description: id familiar
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+        - name: residenteId
+          in: path
+          description: id residente
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResponseRelacionDTO"
+        400:
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BadRequest"
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+
+  /profesionales:
+    get:
+      tags:
+        - Profesionales
+      summary: Lista de Profesionales.
+      description: Muestra una lista de profesionales
+      operationId: getProfesionales
+      parameters:
+        - name: apellidos
+          in: query
+          description: apellidos del profesional
+          required: false
+          schema:
+            type: string
+            example: "Rodriguez Taboada"
+        - name: nombre
+          in: query
+          description: nombre del profesional
+          required: false
+          schema:
+            type: string
+            example: "Maria"
+        - name: dni
+          in: query
+          description: dni del profesional
+          required: false
+          schema:
+            type: string
+            example: "45612345L"
+
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Profesional"
+              example:
+                - id: 1
+                  nombre: "Maria"
+                  apellidos: "Ullibarriarana Puente"
+                  dni: "45612345L"
+                  fechaNacimiento: 26-09-1988
+                  categoria: "Fisioterapeuta"
+
+                - id: 2
+                  nombre: "Pablo"
+                  apellidos: "Perez Yañez"
+                  dni: "36985274G"
+                  fechaNacimiento: 15-09-1984
+                  categoria: "Enfermero"
+
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    post:
+      tags:
+        - Profesionales
+      summary: Insertar un profesional
+      description: Añadir un nuevo profesional a la base de datos.
+      operationId: addProfesional
+      requestBody:
+        description: Crea un nuevo Profesional
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProfesionalIn'
+      responses:
+        '201':
+          description: Se ha registrado correctamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Profesional'
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestValidation'
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+  /profesional/{id}:
+    get:
+      tags:
+        - Profesionales
+      summary: Muestra un profesional
+      description: Muestra la información de un profesional determinado por su ID.
+      operationId: getProfesional
+      parameters:
+        - name: id
+          in: path
+          description: Id del profesional
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                  $ref: "#/components/schemas/Profesional"
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    delete:
+      tags:
+        - Profesionales
+      summary: Elimina un Profesional
+      description: Elimina la información de un profesional determinado por su ID.
+      operationId: deleteProfesional
+      parameters:
+        - name: id
+          in: path
+          description: Id del Profesional
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        204:
+          description: No content
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    put:
+      tags:
+        - Profesionales
+      summary: Modificar un profesional
+      description: Modificar la infomación de un profesional en la base de datos.
+      operationId: modifyProfesional
+      parameters:
+        - name: id
+          in: path
+          description: Id del Profesional
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      requestBody:
+        description: Nuevos datos del profesional
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Profesional'
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Profesional'
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestValidation'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+    patch:
+      tags:
+        - Profesionales
+      summary: Modificar categoría profesional
+      description: Modificar el dato de la categoría de un profesional en la base de datos.
+      operationId: patchProfesional
+      parameters:
+        - name: id
+          in: path
+          description: Id del profesional
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      requestBody:
+        description: Nuevos datos de categoría
+        required: true
+        content:
+          application/json:
+            schema:
+              type: string
+              example: Terapeuta Ocupacional
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Profesional'
+              example:
+                - id: 1
+                  nombre: "Maria"
+                  apellidos: "Ullibarriarana Puente"
+                  dni: "45612345L"
+                  fechaNacimiento: 26-09-1988
+                  categoria: "Terapeuta Ocupacional"
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+
+  /planes:
+    get:
+      tags:
+        - Planes
+      summary: Lista de Planes.
+      description: Muestra una lista de planes
+      operationId: getPlanes
+      parameters:
+        - name: descripcion
+          in: query
+          description: descripcion del plan del plan
+          required: false
+          schema:
+            type: string
+            example: "Baloncesto adaptado"
+        - name: nombre
+          in: query
+          description: nombre del plan
+          required: false
+          schema:
+            type: string
+            example: "Gero Basquet"
+        - name: terapia
+          in: query
+          description: terapia en la que se incluye el plan
+          required: false
+          schema:
+            type: string
+            example: "Juegos Lúdicos"
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Plan"
+              example:
+                - id: 1
+                  nombre: "Gero Basquet"
+                  apellidos: "Terapias activas"
+                  fechaInicio: 10-04-2023
+                  fechaFin:
+                  importante: true
+                  descripcion: "Baloncesto adaptado"
+
+                - id: 2
+                  nombre: "Pasatiempos"
+                  apellidos: "Terapias cognitivas"
+                  fechaInicio: 10-04-2023
+                  fechaFin:
+                  importante: true
+                  descripcion: "Taller de pasatiempos"
+        400:
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BadRequest"
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    post:
+      tags:
+        - Planes
+      summary: Insertar un plan
+      description: Añadir un nuevo plan a la base de datos.
+      operationId: addPlan
+      requestBody:
+        description: Crea un nuevo Plan
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PlanIn'
+      responses:
+        '201':
+          description: Se ha registrado correctamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Plan'
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestValidation'
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+  /plan/{id}:
+    get:
+      tags:
+        - Planes
+      summary: Muestra un plan
+      description: Muestra la información de un plan determinado por su ID.
+      operationId: getPlan
+      parameters:
+        - name: id
+          in: path
+          description: Id del Plan
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: "#/components/schemas/Plan"
+        400:
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BadRequest"
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    delete:
+      tags:
+        - Planes
+      summary: Elimina un plan
+      description: Elimina la información de un plan determinado por su ID.
+      operationId: deletePlan
+      parameters:
+        - name: id
+          in: path
+          description: Id del plan
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        204:
+          description: No content
+        400:
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BadRequest"
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+    put:
+      tags:
+        - Planes
+      summary: Modificar un plan
+      description: Modificar la infomación de un plan en la base de datos.
+      operationId: modifyPlan
+      parameters:
+        - name: id
+          in: path
+          description: Id del plan
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      requestBody:
+        description: Nuevos datos del plan
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Plan'
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Plan'
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestValidation'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+    patch:
+      tags:
+        - Planes
+      summary: Modificar importancia de un plan
+      description: Modificar el dato de imprtancia de un plan en la base de datos.
+      operationId: patchPlan
+      parameters:
+        - name: id
+          in: path
+          description: Id del plan
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      requestBody:
+        description: Nuevos dato de importancia
+        required: true
+        content:
+          application/json:
+            schema:
+              type: boolean
+              example: false
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Plan'
+              example:
+                id: 1
+                nombre: "Gero Basquet"
+                apellidos: "Terapias activas"
+                fechaInicio: 10-04-2023
+                fechaFin:
+                importante: false
+                descripcion: "Baloncesto adaptado"
+        '400':
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequest'
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerError'
+
+  /plan/{planId}/residente/{residenteId}:
+    post:
+      tags:
+        - Planes
+      summary: Relaciona un plan con un residente
+      description: Permite relacionar planes con residentes
+      operationId: addParticipa
+      parameters:
+        - name: planId
+          in: path
+          description: id plan
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+        - name: residenteId
+          in: path
+          description: id residente
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResponseParticipaDTO"
+        400:
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BadRequest"
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+  /plan/{planId}/numResidentes:
+    get:
+      tags:
+        - Planes
+      summary: Participantes en un plan
+      description: Cuenta el número de participantes que tiene un plan
+      operationId: getNumResidentesPlan
+      parameters:
+        - name: Id
+          in: path
+          description: id plan
+          required: true
+          schema:
+            type: number
+            format: int64
+            example: 1
+      responses:
+        200:
+          description: ok
+          content:
+            application/json:
+              schema:
+                type: number
+                format: int32
+                example: 13
+        400:
+          description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BadRequest"
+        404:
+          description: El recurso de destino no existe. La URI no está bien formado o se ha suprimido el recurso.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotFound"
+        500:
+          description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+
+components:
+  schemas:
+    CentroIn:
+      type: object
+      required:
+        - nombre
+        - numRegistro
+        - email
+      properties:
+        nombre:
+          type: string
+          example: "Centro de Día Lalín"
+        direccion:
+          type: string
+          example: "Filgueiroa N60, Donramiro"
+        numRegistro:
+          type: string
+          example: "G1502020"
+        email:
+          type: string
+          example: "exampleLalin@email.com"
+        telefono:
+          type: string
+          example: "123456789"
+    Centro:
+      type: object
+      allOf:
+        - $ref: "#/components/schemas/CentroIn"
+      properties:
+            id:
+              type: number
+              format: int64
+              example: 1
+    ResidenteIn:
+      required:
+        - nombre
+        - apellidos
+        - dni
+        - sexo
+      properties:
+        nombre:
+          type: string
+          example: "Victorino"
+        apellidos:
+          type: string
+          example: "Rodríguez Castro"
+        dni:
+          type: string
+          example: "44091652P"
+        fecha de nacimiento:
+          type: string
+          format: date
+          example: "15-01-1972"
+        sexo:
+          type: string
+          example: "M"
+        saldo:
+          type: number
+          format: float
+          example: 55.37
+        centroId:
+          type: number
+          format: int64
+          example: 1
+      type: object
+    Residente:
+      required:
+        - nombre
+        - apellidos
+        - dni
+        - sexo
+      properties:
+        id:
+          type: number
+          format: int64
+          example: 1
+        nombre:
+          type: string
+          example: "Victorino"
+        apellidos:
+          type: string
+          example: "Rodríguez Castro"
+        dni:
+          type: string
+          example: "44091652P"
+        fecha de nacimiento:
+          type: string
+          format: date
+          example: "15-01-1972"
+        sexo:
+          type: string
+          example: "M"
+        saldo:
+          type: number
+          format: float
+          example: 55.37
+    FamiliarIn:
+      required:
+        - nombre
+        - apellidos
+        - dni
+      properties:
+        nombre:
+          type: string
+          example: "Antonio"
+        apellidos:
+          type: string
+          example: "Martínez González"
+        dni:
+          type: string
+          example: "78912345D"
+        fecha de nacimiento:
+          type: string
+          format: date
+          example: "15-01-1972"
+        telefono:
+          type: string
+          example: "123456789"
+      type: object
+    Familiar:
+      allOf:
+        - type: object
+          properties:
+            Id:
+              type: number
+              format: int64
+              example: 1
+        - $ref: "#/components/schemas/FamiliarIn"
+    ProfesionalIn:
+      required:
+        - nombre
+        - apellidos
+        - dni
+      properties:
+        nombre:
+          type: string
+          example: "Maria"
+        apellidos:
+          type: string
+          example: "Ullibarriarana Puente"
+        dni:
+          type: string
+          example: "45612345L"
+        fecha de nacimiento:
+          type: string
+          format: date
+          example: "26-09-1988"
+        categoria:
+          type: string
+          example: "Fisioterapeuta"
+      type: object
+    Profesional:
+      allOf:
+        - type: object
+          properties:
+            Id:
+              type: number
+              format: int64
+              example: 1
+        - $ref: "#/components/schemas/ProfesionalIn"
+    PlanIn:
+      required:
+        - nombre
+        - terapia
+        - descripcion
+      properties:
+        nombre:
+          type: string
+          example: "Gero Basquet"
+        terapia:
+          type: string
+          example: "Terapias activas"
+        fecha de inicio:
+          type: string
+          format: date
+          example: "10-04-2023"
+        fecha de fin:
+          type: string
+          format: date
+          example: ""
+        importante:
+          type: boolean
+          example: "true"
+        descripcion:
+          type: string
+          example: "Baloncesto adaptado"
+        residenteId:
+          type: number
+          format: int64
+          example: 1
+      type: object
+    Plan:
+      required:
+        - nombre
+        - terapia
+        - descripcion
+      properties:
+        Id:
+          type: number
+          format: int64
+          example: 1
+        nombre:
+          type: string
+          example: "Gero Basquet"
+        terapia:
+          type: string
+          example: "Terapias activas"
+        fechaInicio:
+          type: string
+          format: date
+          example: "10-04-2023"
+        fechaFin:
+          type: string
+          format: date
+          example: ""
+        importante:
+          type: boolean
+          example: "true"
+        descripcion:
+          type: string
+          example: "Baloncesto adaptado"
+      type: object
+
+    BadRequest:
+      type: object
+      properties:
+        code:
+          type: string
+          description: código de estado
+          example: 400
+        message:
+          type: string
+          description: Bad Request
+          example: Bad Request
+    BadRequestValidation:
+      type: object
+      properties:
+        code:
+          type: string
+          description: código de estado
+          example: 400
+        message:
+          type: string
+          description: Mensaje de error
+          example: Error de validación
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/ErrorField'
+    ErrorField:
+      type: object
+      description: Error de validación en un campo de entrada
+      properties:
+        fieldName:
+          type: string
+          description: El campo donde se ha producido el error
+          example: dni
+        message:
+          type: string
+          description: Mensaje de error asociado con el campo
+          example: El formato introducido no es correcto introduce un dni válido
+    NotFound:
+      type: object
+      properties:
+        code:
+          type: string
+          description: código de estado
+          example: 404
+        message:
+          type: string
+          description: Mensaje de error
+          example: Recurso solicitado no encontrado
+    ErrorResponse:
+      properties:
+        internalError:
+          type: number
+          format: int32
+        message:
+          type: string
+      type: object
+    InternalServerError:
+      allOf:
+        - type: object
+        - $ref: '#/components/schemas/ErrorResponse'
+      example:
+        internalError: 500
+        message: "Error interno del servidor"
+    ResponseRelacionDTO:
+      allOf:
+        - type: object
+        - $ref: '#/components/schemas/ErrorResponse'
+      example:
+        InternalCode: 1
+        message: "Residente añadido al familiar"
+    ResponseParticipaDTO:
+      allOf:
+        - type: object
+        - $ref: '#/components/schemas/ErrorResponse'
+      example:
+        InternalCode: 2
+        message: "Residente añadido al Plan"

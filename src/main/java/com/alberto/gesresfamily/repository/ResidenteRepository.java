@@ -16,7 +16,7 @@ public interface ResidenteRepository extends CrudRepository<Residente, Long> {
 
     List<Residente> findAllResidentesById(long id);
 
-    List<Residente> findAllResidentesByIdOrNombreOrDni(long id, String nombre, String dni);
+    List<Residente> findAllResidentesByApellidosOrNombreOrDni(String apellidos, String nombre, String dni);
 
     // mostrar los residentes que su saldo sea menor que
 

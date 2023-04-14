@@ -23,7 +23,7 @@ public interface ResidenteService {
 
     Residente finbById(long idResidente);
 
-    List<Residente> findAllResidentes(long id, String nombre, String dni);
+    List<Residente> findAllResidentes(String apellidos, String nombre, String dni);
 
     Residente patchProfesional(long id, float saldo) throws ResidenteNotFoundException;
 

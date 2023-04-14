@@ -43,15 +43,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/centros/1",
+							"raw": "http://localhost:8080/centro/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"centros",
-								"1"
+								"centro",
+								"2"
 							]
 						}
 					},
@@ -82,7 +82,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/centros?all=true",
+							"raw": "http://localhost:8080/centros?nombre=Centro de Dia Lalin",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -93,13 +93,8 @@
 							],
 							"query": [
 								{
-									"key": "all",
-									"value": "true"
-								},
-								{
 									"key": "nombre",
-									"value": "alberto",
-									"disabled": true
+									"value": "Centro de Dia Lalin"
 								},
 								{
 									"key": "numRegistro",
@@ -143,14 +138,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/centros/7",
+							"raw": "http://localhost:8080/centro/7",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"centros",
+								"centro",
 								"7"
 							]
 						}
@@ -172,15 +167,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/centros/1",
+							"raw": "http://localhost:8080/centro/",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"centros",
-								"1"
+								"centro",
+								""
 							]
 						}
 					},
@@ -249,27 +244,38 @@
 					"response": []
 				},
 				{
-					"name": "consultFamiliar",
+					"name": "familiar/{familiarId}/residente/{residenteId}",
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"familiarId\": 2,\r\n    \"residenteId\": 10\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
-							"raw": "http://localhost:8080/familiares/1",
+							"raw": "http://localhost:8080/familiar/2/residente/10",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"familiares",
-								"1"
+								"familiar",
+								"2",
+								"residente",
+								"10"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "consultFamiliaresById",
+					"name": "consultFamiliares",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -282,13 +288,26 @@
 							"port": "8080",
 							"path": [
 								"familiares"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consultFamiliarById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/familiar/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
 							],
-							"query": [
-								{
-									"key": "familiar",
-									"value": "1",
-									"disabled": true
-								}
+							"port": "8080",
+							"path": [
+								"familiar",
+								"2"
 							]
 						}
 					},
@@ -300,7 +319,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/familiares?all=false",
+							"raw": "http://localhost:8080/familiares?nombre=martin",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -311,13 +330,8 @@
 							],
 							"query": [
 								{
-									"key": "all",
-									"value": "false"
-								},
-								{
 									"key": "nombre",
-									"value": "alberto",
-									"disabled": true
+									"value": "martin"
 								},
 								{
 									"key": "dni",
@@ -340,15 +354,15 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/familiares/1",
+							"raw": "http://localhost:8080/familiar/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"familiares",
-								"1"
+								"familiar",
+								"2"
 							]
 						}
 					},
@@ -361,7 +375,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": " {\r\n    \"id\": 1,\r\n    \"nombre\": \"Fernando\",\r\n    \"apellidos\": \"Rodriguez Taboada\",\r\n    \"dni\": \"44091652P\",\r\n    \"fechaNacimiento\": \"26-09-1988\",\r\n    \"telefono\": \"600623180\"\r\n}\r\n",
+							"raw": " {\r\n    \"id\": 2,\r\n    \"nombre\": \"Fernando\",\r\n    \"apellidos\": \"Rodriguez Taboada\",\r\n    \"dni\": \"44091652P\",\r\n    \"fechaNacimiento\": \"26-09-1988\",\r\n    \"telefono\": \"600623180\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -369,15 +383,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/familiares/1",
+							"raw": "http://localhost:8080/familiar/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"familiares",
-								"1"
+								"familiar",
+								"2"
 							]
 						}
 					},
@@ -424,7 +438,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombrePlan\": \"GeroBasket\",\r\n    \"terapia\": \"Juegos Lúdicos\",\r\n    \"fechaInicio\": \"01-12-2021\",\r\n    \"fechaFin\": null,\r\n    \"importante\": true,\r\n    \"descripcion\": \"Baloncesto adaptado\",\r\n    \"profesional\": 4 \r\n}",
+							"raw": "{\r\n    \"nombrePlan\": \"GeroBasket\",\r\n    \"terapia\": \"Juegos Lúdicos\",\r\n    \"fechaInicio\": \"01-12-2021\",\r\n    \"fechaFin\": null,\r\n    \"importante\": true,\r\n    \"descripcion\": \"Baloncesto adaptado\",\r\n    \"profesional\": 3\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -446,13 +460,13 @@
 					"response": []
 				},
 				{
-					"name": "planes{planId}/residentes{residenteId}",
+					"name": "plan{planId}/residente{residenteId}",
 					"request": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"planId\": 1,\r\n    \"residenteId\": 1\r\n}",
+							"raw": "{\r\n    \"planId\": 6,\r\n    \"residenteId\": 10\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -460,37 +474,17 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/planes/1/residentes/1",
+							"raw": "http://localhost:8080/plan/6/residente/10",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"planes",
-								"1",
-								"residentes",
-								"1"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "consultPlan",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/planes/1",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"planes",
-								"1"
+								"plan",
+								"6",
+								"residente",
+								"10"
 							]
 						}
 					},
@@ -521,7 +515,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/planes?all=false&id=",
+							"raw": "http://localhost:8080/planes?nombre=gerobasket",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -532,22 +526,18 @@
 							],
 							"query": [
 								{
-									"key": "all",
-									"value": "false"
-								},
-								{
 									"key": "nombre",
-									"value": "",
+									"value": "gerobasket"
+								},
+								{
+									"key": "descripcion",
+									"value": "baloncesto adaptado",
 									"disabled": true
 								},
 								{
-									"key": "importante",
-									"value": "",
+									"key": "terapia",
+									"value": "juegos ludicos",
 									"disabled": true
-								},
-								{
-									"key": "id",
-									"value": ""
 								}
 							]
 						}
@@ -560,20 +550,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/planes?plan=1",
+							"raw": "http://localhost:8080/plan/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"planes"
-							],
-							"query": [
-								{
-									"key": "plan",
-									"value": "1"
-								}
+								"plan",
+								"1"
 							]
 						}
 					},
@@ -606,14 +591,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/planes/3",
+							"raw": "http://localhost:8080/plan/3",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"planes",
+								"plan",
 								"3"
 							]
 						}
@@ -635,14 +620,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/planes/1",
+							"raw": "http://localhost:8080/plan/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"planes",
+								"plan",
 								"1"
 							]
 						}
@@ -712,67 +697,7 @@
 					"response": []
 				},
 				{
-					"name": "consultProfesional",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/profesionales/4",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"profesionales",
-								"4"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "consultProfesionalesVariosCriterios",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/profesionales?all=false",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"profesionales"
-							],
-							"query": [
-								{
-									"key": "all",
-									"value": "false"
-								},
-								{
-									"key": "nombre",
-									"value": "",
-									"disabled": true
-								},
-								{
-									"key": "dni",
-									"value": "",
-									"disabled": true
-								},
-								{
-									"key": "id",
-									"value": "",
-									"disabled": true
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "consultprofesionalesById",
+					"name": "consultProfesionales",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -785,6 +710,62 @@
 							"port": "8080",
 							"path": [
 								"profesionales"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consultProfesionalesVariosCriterios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/profesionales",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profesionales"
+							],
+							"query": [
+								{
+									"key": "nombre",
+									"value": "Alberto",
+									"disabled": true
+								},
+								{
+									"key": "dni",
+									"value": "44091652P",
+									"disabled": true
+								},
+								{
+									"key": "apellidos",
+									"value": "Lopez Gonzalez",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consultprofesionalById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/profesional/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profesional",
+								"3"
 							],
 							"query": [
 								{
@@ -803,14 +784,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/profesionales/4",
+							"raw": "http://localhost:8080/profesional/4",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"profesionales",
+								"profesional",
 								"4"
 							]
 						}
@@ -909,37 +890,6 @@
 					"response": []
 				},
 				{
-					"name": "familiar/{familiarId}/residente/{residenteId}",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"residenteId\": 1,\r\n    \"familiarId\": 1\r\n    }",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://localhost:8080/familiares/7/residentes/5",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"familiares",
-								"7",
-								"residentes",
-								"5"
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "consultResidentes",
 					"request": {
 						"method": "GET",
@@ -964,7 +914,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/residentes?all=false",
+							"raw": "http://localhost:8080/residentes",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -975,22 +925,18 @@
 							],
 							"query": [
 								{
-									"key": "all",
-									"value": "false"
-								},
-								{
 									"key": "nombre",
-									"value": "",
+									"value": "Victoria",
 									"disabled": true
 								},
 								{
 									"key": "dni",
-									"value": "",
+									"value": "12345678Y",
 									"disabled": true
 								},
 								{
-									"key": "id",
-									"value": "",
+									"key": "apellidos",
+									"value": "Rodriguez Castro",
 									"disabled": true
 								}
 							]
@@ -999,25 +945,20 @@
 					"response": []
 				},
 				{
-					"name": "consultResidentesById",
+					"name": "consultResidenteById",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/residentes?residente=1",
+							"raw": "http://localhost:8080/residente/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"residentes"
-							],
-							"query": [
-								{
-									"key": "residente",
-									"value": "1"
-								}
+								"residente",
+								"2"
 							]
 						}
 					},
@@ -1029,14 +970,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/residente/200",
+							"raw": "http://localhost:8080/residentes/200",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"residente",
+								"residentes",
 								"200"
 							]
 						}
@@ -1049,15 +990,15 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/residentes/4",
+							"raw": "http://localhost:8080/residente/hola",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"residentes",
-								"4"
+								"residente",
+								"hola"
 							]
 						}
 					},
@@ -1078,14 +1019,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/residentes/2",
+							"raw": "http://localhost:8080/residente/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"residentes",
+								"residente",
 								"2"
 							]
 						}
@@ -1099,7 +1040,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "100",
+							"raw": "200",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1107,7 +1048,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/residente/1",
+							"raw": "http://localhost:8080/residente/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1115,7 +1056,7 @@
 							"port": "8080",
 							"path": [
 								"residente",
-								"1"
+								"2"
 							]
 						}
 					},

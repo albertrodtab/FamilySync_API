@@ -16,7 +16,7 @@ public interface PlanRepository extends CrudRepository<Plan, Long> {
 
     List<Plan> findAllPlanesById(long id);
 
-    List<Plan> findByIdOrNombrePlanOrImportante(long id, String nombrePlan, boolean importante);
+    List<Plan> findByTerapiaOrNombrePlanOrDescripcion(String terapia, String nombrePlan, String descripcion);
 
     // Contar los residentes totales de un plan
     @Query(value = "SELECT COUNT(*) FROM planes_residentes WHERE planes_id = ?1", nativeQuery = true)

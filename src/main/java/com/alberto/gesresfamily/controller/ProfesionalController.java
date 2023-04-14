@@ -34,7 +34,7 @@ public class ProfesionalController {
         return ResponseEntity.status(HttpStatus.CREATED).body(newProfesional);
     }
 
-    @GetMapping("/profesionales/{id}")
+    @GetMapping("/profesional/{id}")
     public ResponseEntity<Profesional> getProfesional (@PathVariable long id) throws ProfesionalNotFoundException {
         Profesional profesional = profesionalService.findProfesional(id);
         return ResponseEntity.ok(profesional);
@@ -42,25 +42,25 @@ public class ProfesionalController {
 
     @GetMapping("/profesionales")
     public ResponseEntity<List<Profesional>> getProfesionales (
-            @RequestParam(name = "id", defaultValue = "0") long id,
-            @RequestParam(name = "nombre", required = false) String nombre,
-            @RequestParam(name = "dni", required = false) String dni,
-            @RequestParam(name = "all", defaultValue = "true") boolean all){
+            @RequestParam(name = "apellidos", required = false, defaultValue = "") String apellidos,
+            @RequestParam(name = "nombre", required = false, defaultValue = "") String nombre,
+            @RequestParam(name = "dni", required = false, defaultValue = "") String dni){
+
         logger.info("Inicio getProfesionales");
         List<Profesional> profesionales;
 
-        if(all){
+        if(apellidos.equals("") && nombre.equals("") && dni.equals("")){
             logger.info("Muestra todos los profesionales");
             profesionales = profesionalService.findAllProfesionales();
         } else {
             logger.info("Muestra los profesionales que cumplen alguno de los criterios");
-            profesionales = profesionalService.findAllProfesionales(id, nombre, dni);
+            profesionales = profesionalService.findAllProfesionales(apellidos, nombre, dni);
         }
         logger.info("Fin getProfesinales");
         return ResponseEntity.ok(profesionales);
     }
 
-    @DeleteMapping("/profesionales/{id}")
+    @DeleteMapping("/profesional/{id}")
     public ResponseEntity<Void> removeProfesional (@PathVariable long id) throws ProfesionalNotFoundException {
         logger.info("Inicio removeFamiliar");
         Profesional profesional = profesionalService.removeProfesional(id);
@@ -68,7 +68,7 @@ public class ProfesionalController {
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
 
-    @PutMapping("/profesionales/{id}")
+    @PutMapping("/profesional/{id}")
     public ResponseEntity<Profesional> modifyProfesional(@RequestBody Profesional profesional, @PathVariable long id) throws ProfesionalNotFoundException {
         logger.info("Inicio modifyFamiliar");
         Profesional newProfesional = profesionalService.modifyProfesional(id, profesional);

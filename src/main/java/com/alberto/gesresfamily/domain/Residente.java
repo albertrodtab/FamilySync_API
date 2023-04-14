@@ -55,6 +55,7 @@ public class Residente {
 
     @ManyToMany (mappedBy = "residentes")
     //para evitar serializaciones pongo el backreference en el otro lado Pero tengo que mejorarlo todavía.
+    @JsonBackReference (value = "ResidenteFamiliar")
     private List<Familiar> familiares;
 
     //como ya está relacionado en el otro lado aquí solo indico por que objeto tiene mapearse

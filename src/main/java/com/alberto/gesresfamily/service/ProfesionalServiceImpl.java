@@ -71,8 +71,8 @@ public class ProfesionalServiceImpl implements ProfesionalService{
     }
 
     @Override
-    public List<Profesional> findAllProfesionales(long id, String nombre, String dni) {
-        return profesionalRepository.findAllProfesionalesByIdOrNombreOrDni(id, nombre, dni);
+    public List<Profesional> findAllProfesionales(String apellidos, String nombre, String dni) {
+        return profesionalRepository.findAllProfesionalesByApellidosOrNombreOrDni(apellidos, nombre, dni);
     }
 
     @Override
