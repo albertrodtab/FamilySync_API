@@ -30,5 +30,7 @@ public interface PlanService {
     Plan patchPlan(long id, boolean importante) throws PlanNotFoundException;
 
     int numResidentes(long id)throws PlanNotFoundException;
+
+
 }
 
