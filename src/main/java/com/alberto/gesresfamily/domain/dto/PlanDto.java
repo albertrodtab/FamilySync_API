@@ -34,5 +34,4 @@ public class PlanDto {
     private String descripcion;
     private long profesional;
 
-
 }

@@ -1060,6 +1060,7 @@ paths:
                   dni: "45612345L"
                   fechaNacimiento: 26-09-1988
                   categoria: "Fisioterapeuta"
+                  planes: []
 
                 - id: 2
                   nombre: "Pablo"
@@ -1067,6 +1068,17 @@ paths:
                   dni: "36985274G"
                   fechaNacimiento: 15-09-1984
                   categoria: "Enfermero"
+                  planes: [
+                    {
+                      "id": 6,
+                      "nombrePlan": "GeroBasket",
+                      "terapia": "Juegos Lúdicos",
+                      "fechaInicio": "01-12-2021",
+                      "fechaFin": null,
+                      "importante": true,
+                      "descripcion": "Baloncesto adaptado"
+                    }
+                  ]
 
         '400':
           description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
@@ -1837,6 +1849,31 @@ components:
               format: int64
               example: 1
         - $ref: "#/components/schemas/ProfesionalIn"
+    ProfesionalOut:
+      properties:
+        Id:
+          type: number
+          format: int64
+          example: 1
+        nombre:
+          type: string
+          example: "Maria"
+        apellidos:
+          type: string
+          example: "Ullibarriarana Puente"
+        dni:
+          type: string
+          example: "45612345L"
+        fecha de nacimiento:
+          type: string
+          format: date
+          example: "26-09-1988"
+        categoria:
+          type: string
+          example: "Fisioterapeuta"
+        planes:
+          $ref: "#/components/schemas/Plan"
+      type: object
     PlanIn:
       required:
         - nombre
