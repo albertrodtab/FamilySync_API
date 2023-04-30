@@ -42,7 +42,8 @@ public class Familiar {
 
     @ManyToMany(cascade = {
             CascadeType.PERSIST,
-            CascadeType.MERGE
+            CascadeType.MERGE,
+            CascadeType.DETACH
     })
     @JoinTable(
             name = "rel_fam_res",

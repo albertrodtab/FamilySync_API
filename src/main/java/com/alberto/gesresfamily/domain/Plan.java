@@ -2,6 +2,7 @@ package com.alberto.gesresfamily.domain;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -53,7 +54,9 @@ public class Plan {
             CascadeType.MERGE
     })
     //para evitar el bucle de que asocie residentes completos a planes y sea algo infinito añadimos @JsonBackReference
-    @JsonBackReference(value = "planResidente")
+    //@JsonBackReference(value = "planResidente")
+    //Esto indicará a la biblioteca Jackson que no incluya la propiedad "familiares" al serializar la clase Residente.
+    @JsonIgnoreProperties(value = {"familiares"})
     private List<Residente> residentes;
 
     //Debemos establecer como se relaciona con los profesionales

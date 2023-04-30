@@ -53,9 +53,9 @@ public class Residente {
     @JsonBackReference(value = "residenteCentro")
     private Centro centro;
 
-    @ManyToMany (mappedBy = "residentes")
+    @ManyToMany (mappedBy = "residentes", cascade = CascadeType.DETACH)
     //para evitar serializaciones pongo el backreference en el otro lado Pero tengo que mejorarlo todavía.
-    @JsonBackReference (value = "ResidenteFamiliar")
+//    @JsonBackReference (value = "ResidenteFamiliar")
     private List<Familiar> familiares;
 
     //como ya está relacionado en el otro lado aquí solo indico por que objeto tiene mapearse
