@@ -1,146 +1,143 @@
-2023-04-29 17:08:24,077 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
-2023-04-29 17:08:24,084 INFO org.springframework.boot.StartupInfoLogger [main] Starting GesresfamilyApplication using Java 17.0.5 on Albertrodtab with PID 4112 (D:\DAM 22_23\AD\gesresfamily2EV\target\classes started by alber in D:\DAM 22_23\AD\gesresfamily2EV)
-2023-04-29 17:08:24,085 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-04-29 17:08:24,574 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
-2023-04-29 17:08:24,576 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-04-29 17:08:24,600 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.CentroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 17:08:24,601 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.FamiliarRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 17:08:24,602 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.PlanRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 17:08:24,603 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ProfesionalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 17:08:24,606 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ResidenteRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 17:08:24,606 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 26 ms. Found 0 JDBC repository interfaces.
-2023-04-29 17:08:24,613 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
-2023-04-29 17:08:24,614 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-29 17:08:24,641 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 24 ms. Found 5 JPA repository interfaces.
-2023-04-29 17:08:25,099 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
-2023-04-29 17:08:25,108 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2023-04-29 17:08:25,109 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2023-04-29 17:08:25,109 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
-2023-04-29 17:08:25,204 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-04-29 17:08:25,204 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1079 ms
-2023-04-29 17:08:25,314 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-04-29 17:08:25,363 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
-2023-04-29 17:08:25,499 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2023-04-29 17:08:25,584 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2023-04-29 17:08:25,917 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2023-04-29 17:08:25,944 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2023-04-29 17:08:26,636 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-04-29 17:08:26,644 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-04-29 17:08:26,951 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-04-29 17:08:27,200 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2023-04-29 17:08:27,221 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-29 17:08:27,227 INFO org.springframework.boot.StartupInfoLogger [main] Started GesresfamilyApplication in 3.447 seconds (JVM running for 3.826)
-2023-04-29 17:09:00,118 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-29 17:09:00,118 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
-2023-04-29 17:09:00,119 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 1 ms
-2023-04-29 17:09:00,164 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-3] 404: Familiar not found
-2023-04-29 17:09:54,750 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-4] Inicio getFamiliares
-2023-04-29 17:09:54,751 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-4] Muestra todos los familiares
-2023-04-29 17:09:54,824 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-4] Fin getFamiliares
-2023-04-29 17:12:43,546 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-1] 404: Familiar not found
-2023-04-29 17:29:40,509 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-4] Inicio getResidentes
-2023-04-29 17:29:40,509 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-4] Muestra todos los residentes
-2023-04-29 17:51:21,515 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
-2023-04-29 17:51:21,516 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
-2023-04-29 17:51:21,526 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
-2023-04-29 18:17:50,837 INFO com.alberto.gesresfamily.controller.PlanController [http-nio-8080-exec-10] Inicio getPlanes
-2023-04-29 18:17:50,838 INFO com.alberto.gesresfamily.controller.PlanController [http-nio-8080-exec-10] Muestra todos los planes
-2023-04-29 18:36:25,810 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-04-29 18:36:25,816 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2023-04-29 18:36:25,823 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2023-04-29 19:11:14,030 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
-2023-04-29 19:11:14,051 INFO org.springframework.boot.StartupInfoLogger [main] Starting GesresfamilyApplication using Java 17.0.5 on Albertrodtab with PID 20984 (D:\DAM 22_23\AD\gesresfamily2EV\target\classes started by alber in D:\DAM 22_23\AD\gesresfamily2EV)
-2023-04-29 19:11:14,053 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-04-29 19:11:14,869 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
-2023-04-29 19:11:14,871 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-04-29 19:11:14,901 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.CentroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 19:11:14,902 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.FamiliarRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 19:11:14,906 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.PlanRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 19:11:14,908 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ProfesionalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 19:11:14,910 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ResidenteRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 19:11:14,911 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 35 ms. Found 0 JDBC repository interfaces.
-2023-04-29 19:11:14,918 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
-2023-04-29 19:11:14,920 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-29 19:11:14,954 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 29 ms. Found 5 JPA repository interfaces.
-2023-04-29 19:11:15,524 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
-2023-04-29 19:11:15,534 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2023-04-29 19:11:15,535 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2023-04-29 19:11:15,536 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
-2023-04-29 19:11:15,631 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-04-29 19:11:15,631 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1495 ms
-2023-04-29 19:11:15,746 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-04-29 19:11:15,778 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
-2023-04-29 19:11:15,886 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2023-04-29 19:11:15,955 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2023-04-29 19:11:16,245 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2023-04-29 19:11:16,269 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2023-04-29 19:11:17,071 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-04-29 19:11:17,078 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-04-29 19:11:17,478 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-04-29 19:11:17,783 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2023-04-29 19:11:17,801 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-29 19:11:17,809 INFO org.springframework.boot.StartupInfoLogger [main] Started GesresfamilyApplication in 4.266 seconds (JVM running for 4.882)
-2023-04-29 19:11:27,015 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-29 19:11:27,015 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
-2023-04-29 19:11:27,016 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
-2023-04-29 19:11:27,056 INFO com.alberto.gesresfamily.controller.PlanController [http-nio-8080-exec-1] Inicio getPlanes
-2023-04-29 19:11:27,057 INFO com.alberto.gesresfamily.controller.PlanController [http-nio-8080-exec-1] Muestra todos los planes
-2023-04-29 19:11:56,719 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-4] Inicio getResidentes
-2023-04-29 19:11:56,720 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-4] Muestra todos los residentes
-2023-04-29 19:12:02,992 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
-2023-04-29 19:12:02,992 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
-2023-04-29 19:12:03,002 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
-2023-04-29 19:59:29,379 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-04-29 19:59:29,391 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2023-04-29 19:59:29,397 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2023-04-29 20:00:10,565 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
-2023-04-29 20:00:10,580 INFO org.springframework.boot.StartupInfoLogger [main] Starting GesresfamilyApplication using Java 17.0.5 on Albertrodtab with PID 33984 (D:\DAM 22_23\AD\gesresfamily2EV\target\classes started by alber in D:\DAM 22_23\AD\gesresfamily2EV)
-2023-04-29 20:00:10,582 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-04-29 20:00:11,264 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
-2023-04-29 20:00:11,266 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-04-29 20:00:11,295 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.CentroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 20:00:11,297 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.FamiliarRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 20:00:11,299 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.PlanRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 20:00:11,301 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ProfesionalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 20:00:11,303 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ResidenteRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2023-04-29 20:00:11,304 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 33 ms. Found 0 JDBC repository interfaces.
-2023-04-29 20:00:11,312 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
-2023-04-29 20:00:11,313 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-29 20:00:11,348 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 30 ms. Found 5 JPA repository interfaces.
-2023-04-29 20:00:11,910 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
-2023-04-29 20:00:11,921 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2023-04-29 20:00:11,922 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2023-04-29 20:00:11,922 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
-2023-04-29 20:00:12,035 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2023-04-29 20:00:12,036 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1398 ms
-2023-04-29 20:00:12,165 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-04-29 20:00:12,202 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
-2023-04-29 20:00:12,323 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2023-04-29 20:00:12,407 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2023-04-29 20:00:12,690 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2023-04-29 20:00:12,717 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2023-04-29 20:00:13,593 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-04-29 20:00:13,603 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-04-29 20:00:14,041 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-04-29 20:00:14,462 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2023-04-29 20:00:14,490 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-29 20:00:14,502 INFO org.springframework.boot.StartupInfoLogger [main] Started GesresfamilyApplication in 4.302 seconds (JVM running for 4.892)
-2023-04-29 20:00:22,068 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-29 20:00:22,068 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
-2023-04-29 20:00:22,070 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
-2023-04-29 20:00:22,104 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-1] Inicio getFamiliares
-2023-04-29 20:00:22,105 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-1] Muestra todos los familiares
-2023-04-29 20:00:22,257 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-1] Fin getFamiliares
-2023-04-29 20:00:40,083 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio getCentros
-2023-04-29 20:00:40,083 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Muestra todos los centros
-2023-04-29 20:00:40,089 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin getCentros
-2023-04-29 20:00:53,363 INFO com.alberto.gesresfamily.controller.PlanController [http-nio-8080-exec-2] Inicio getPlanes
-2023-04-29 20:00:53,364 INFO com.alberto.gesresfamily.controller.PlanController [http-nio-8080-exec-2] Muestra todos los planes
-2023-04-29 20:01:04,727 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
-2023-04-29 20:01:04,728 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
-2023-04-29 20:01:04,733 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
-2023-04-29 20:01:15,630 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-8] Inicio getResidentes
-2023-04-29 20:01:15,631 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-8] Muestra todos los residentes
-2023-04-29 20:01:40,723 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-04-29 20:01:40,726 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2023-04-29 20:01:40,736 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-04-30 11:39:04,983 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-04-30 11:39:05,006 INFO org.springframework.boot.StartupInfoLogger [main] Starting GesresfamilyApplication using Java 17.0.5 on Albertrodtab with PID 9808 (D:\DAM 22_23\AD\gesresfamily2EV\target\classes started by alber in D:\DAM 22_23\AD\gesresfamily2EV)
+2023-04-30 11:39:05,009 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-30 11:39:07,085 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-30 11:39:07,094 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-30 11:39:07,183 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.CentroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 11:39:07,189 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.FamiliarRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 11:39:07,197 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.PlanRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 11:39:07,203 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ProfesionalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 11:39:07,209 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ResidenteRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 11:39:07,212 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 102 ms. Found 0 JDBC repository interfaces.
+2023-04-30 11:39:07,237 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-30 11:39:07,241 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 11:39:07,356 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 101 ms. Found 5 JPA repository interfaces.
+2023-04-30 11:39:08,781 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:39:08,802 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:39:08,803 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-04-30 11:39:08,804 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-04-30 11:39:08,978 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-04-30 11:39:08,979 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3885 ms
+2023-04-30 11:39:09,200 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 11:39:09,294 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-04-30 11:39:09,514 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 11:39:09,696 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-30 11:39:10,254 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-30 11:39:10,295 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 11:39:11,811 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 11:39:11,828 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:39:12,611 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 11:39:13,169 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 11:39:13,211 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:39:13,225 INFO org.springframework.boot.StartupInfoLogger [main] Started GesresfamilyApplication in 8.798 seconds (JVM running for 9.644)
+2023-04-30 11:41:38,594 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 11:41:38,597 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-04-30 11:41:38,599 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2023-04-30 11:41:38,672 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-04-30 11:41:38,674 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-04-30 11:41:38,976 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-04-30 11:41:47,110 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentro
+2023-04-30 11:41:47,131 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentro
+2023-04-30 11:42:00,040 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-4] Inicio relacion
+2023-04-30 11:42:00,055 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-4] Residente encontrado 10
+2023-04-30 11:42:00,064 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-4] 404: Familiar not found
+2023-04-30 11:42:19,835 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-5] 404: Familiar not found
+2023-04-30 11:42:23,994 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-7] Inicio getFamiliares
+2023-04-30 11:42:23,995 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-7] Muestra todos los familiares
+2023-04-30 11:42:24,006 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-7] Fin getFamiliares
+2023-04-30 11:42:44,675 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-9] Inicio relacion
+2023-04-30 11:42:44,683 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-9] Residente encontrado 10
+2023-04-30 11:42:44,690 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-9] Familiar encontrado 3
+2023-04-30 11:42:44,690 INFO com.alberto.gesresfamily.service.FamiliarServiceImpl [http-nio-8080-exec-9] Inicio addRelación
+2023-04-30 11:42:44,761 INFO com.alberto.gesresfamily.service.FamiliarServiceImpl [http-nio-8080-exec-9] Fin addRelacion
+2023-04-30 11:42:44,763 INFO com.alberto.gesresfamily.controller.FamiliarController [http-nio-8080-exec-9] Fin relacion
+2023-04-30 11:43:10,844 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:43:10,846 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-04-30 11:43:10,854 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-04-30 18:07:10,450 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-04-30 18:07:10,470 INFO org.springframework.boot.StartupInfoLogger [main] Starting GesresfamilyApplication using Java 17.0.5 on Albertrodtab with PID 37096 (D:\DAM 22_23\AD\gesresfamily2EV\target\classes started by alber in D:\DAM 22_23\AD\gesresfamily2EV)
+2023-04-30 18:07:10,472 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-30 18:07:11,597 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-30 18:07:11,600 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-30 18:07:11,643 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.CentroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 18:07:11,645 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.FamiliarRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 18:07:11,649 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.PlanRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 18:07:11,652 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ProfesionalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 18:07:11,655 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ResidenteRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 18:07:11,656 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 0 JDBC repository interfaces.
+2023-04-30 18:07:11,666 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-30 18:07:11,668 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 18:07:11,734 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 57 ms. Found 5 JPA repository interfaces.
+2023-04-30 18:07:12,538 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-30 18:07:12,554 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 18:07:12,555 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-04-30 18:07:12,556 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-04-30 18:07:12,693 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-04-30 18:07:12,693 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2133 ms
+2023-04-30 18:07:12,854 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 18:07:12,929 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-04-30 18:07:13,134 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 18:07:13,288 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-30 18:07:13,802 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-30 18:07:13,844 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 18:07:14,962 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 18:07:14,971 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 18:07:15,468 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 18:07:15,848 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 18:07:15,878 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 18:07:15,888 INFO org.springframework.boot.StartupInfoLogger [main] Started GesresfamilyApplication in 6.018 seconds (JVM running for 6.828)
+2023-04-30 18:10:15,307 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 18:10:15,308 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-30 18:10:15,309 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2023-04-30 18:10:28,424 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-2] Inicio addResidenteCentro
+2023-04-30 18:10:28,514 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-2] Fin addResidenteCentro
+2023-04-30 18:10:51,590 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio getCentro
+2023-04-30 18:10:51,594 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin getCentro
+2023-04-30 18:11:15,356 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio numResidentes 1
+2023-04-30 18:11:15,392 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] rin numResidentes 1
+2023-04-30 18:13:52,474 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 18:13:52,475 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-04-30 18:13:52,482 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-04-30 18:14:13,693 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-04-30 18:14:13,702 INFO org.springframework.boot.StartupInfoLogger [main] Starting GesresfamilyApplication using Java 17.0.5 on Albertrodtab with PID 36788 (D:\DAM 22_23\AD\gesresfamily2EV\target\classes started by alber in D:\DAM 22_23\AD\gesresfamily2EV)
+2023-04-30 18:14:13,703 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-30 18:14:14,156 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-30 18:14:14,157 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-30 18:14:14,177 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.CentroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 18:14:14,178 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.FamiliarRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 18:14:14,180 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.PlanRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 18:14:14,182 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ProfesionalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 18:14:14,183 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ResidenteRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-30 18:14:14,184 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+2023-04-30 18:14:14,190 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-30 18:14:14,190 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 18:14:14,214 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 20 ms. Found 5 JPA repository interfaces.
+2023-04-30 18:14:14,588 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-30 18:14:14,596 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-30 18:14:14,596 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-04-30 18:14:14,597 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-04-30 18:14:14,666 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-04-30 18:14:14,666 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 920 ms
+2023-04-30 18:14:14,748 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 18:14:14,772 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-04-30 18:14:14,851 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 18:14:14,906 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-30 18:14:15,114 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-30 18:14:15,131 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 18:14:15,683 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 18:14:15,689 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 18:14:15,954 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 18:14:16,168 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-30 18:14:16,182 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 18:14:16,188 INFO org.springframework.boot.StartupInfoLogger [main] Started GesresfamilyApplication in 2.733 seconds (JVM running for 3.055)
+2023-04-30 18:14:38,383 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-7] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 18:14:38,384 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Initializing Servlet 'dispatcherServlet'
+2023-04-30 18:14:38,385 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Completed initialization in 1 ms
+2023-04-30 18:14:38,414 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentro
+2023-04-30 18:14:38,451 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentro
+2023-04-30 18:21:27,206 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-04-30 18:21:27,208 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-04-30 18:21:27,312 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-04-30 18:27:11,911 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 18:27:11,913 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-04-30 18:27:11,920 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

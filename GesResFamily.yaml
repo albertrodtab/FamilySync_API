@@ -56,7 +56,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: "#/components/schemas/Centro"
+                  $ref: "#/components/schemas/CentroOut"
               example:
               - id: 1
                 nombre: "Centro de Día Lalín"
@@ -64,6 +64,27 @@ paths:
                 numRegistro: "G1502020"
                 email: "exampleLalin@email.com"
                 telefono: "123456789"
+                residentes:
+                  [
+                    {
+                      "id": 3,
+                      "nombre": "Victorino",
+                      "apellidos": "Rodríguez Castro",
+                      "dni": "78459632L",
+                      "fechaNacimiento": "03-08-1947",
+                      "sexo": "M",
+                      "saldo": 0.0
+                    },
+                    {
+                      "id": 5,
+                      "nombre": "Fernando",
+                      "apellidos": "Rodríguez Castro",
+                      "dni": "78459632L",
+                      "fechaNacimiento": "03-08-1947",
+                      "sexo": "M",
+                      "saldo": 0.0
+                    }
+                  ]
                 
               - id: 2
                 nombre: "Centro de Día Vigo"
@@ -144,7 +165,7 @@ paths:
           content:
             application/json:
               schema:
-                  $ref: "#/components/schemas/Centro"
+                  $ref: "#/components/schemas/CentroOut"
         '400':
           description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
           content:
@@ -1052,7 +1073,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: "#/components/schemas/Profesional"
+                  $ref: "#/components/schemas/ProfesionalOut"
               example:
                 - id: 1
                   nombre: "Maria"
@@ -1722,6 +1743,29 @@ components:
               type: number
               format: int64
               example: 1
+    CentroOut:
+      properties:
+        id:
+          type: number
+          format: int64
+          example: 1
+        nombre:
+          type: string
+          example: "Centro de Día Lalín"
+        direccion:
+          type: string
+          example: "Filgueiroa N60, Donramiro"
+        numRegistro:
+          type: string
+          example: "G1502020"
+        email:
+          type: string
+          example: "exampleLalin@email.com"
+        telefono:
+          type: string
+          example: "123456789"
+        residentes:
+          $ref: "#/components/schemas/Residente"
     ResidenteIn:
       required:
         - nombre
@@ -1960,9 +2004,7 @@ components:
           description: Mensaje de error
           example: Error de validación
         errors:
-          type: array
-          items:
-            $ref: '#/components/schemas/ErrorField'
+          $ref: '#/components/schemas/ErrorField'
     ErrorField:
       type: object
       description: Error de validación en un campo de entrada

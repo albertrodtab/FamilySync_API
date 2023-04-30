@@ -42,7 +42,6 @@ public class Centro {
     private String telefono;
 
     @OneToMany(mappedBy = "centro")
-    @JsonBackReference(value = "centroResidente")
     private List<Residente> residentes;
 
 }
