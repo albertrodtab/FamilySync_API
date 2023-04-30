@@ -92,6 +92,8 @@ paths:
                 numRegistro: "G4578962"
                 email: "exampleVigo@email.com"
                 telefono: "987654321"
+                residentes:
+                  []
 
         '400':
           description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
@@ -403,7 +405,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: "#/components/schemas/Residente"
+                  $ref: "#/components/schemas/ResidenteOut"
               example:
                 - id: 1
                   nombre: "Victorino"
@@ -412,6 +414,17 @@ paths:
                   fechaNacimiento: 15-06-1944
                   sexo: "M"
                   Saldo: 55.68
+                  familiares:
+                    [
+                      {
+                        "id": 3,
+                        "nombre": "Martin",
+                        "apellidos": "RodriguezTaboada",
+                        "dni": "44091652P",
+                        "fechaNacimiento": "26-09-1988",
+                        "telefono": "600623180"
+                      }
+                    ]
 
                 - id: 2
                   nombre: "Maria Rosa"
@@ -420,6 +433,8 @@ paths:
                   fechaNacimiento: 15-06-1947
                   sexo: "F"
                   Saldo: 145.68
+                  familiares:
+                    []
         '400':
           description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
           content:
@@ -492,7 +507,7 @@ paths:
           content:
             application/json:
               schema:
-                  $ref: "#/components/schemas/Residente"
+                  $ref: "#/components/schemas/ResidenteOut"
         '400':
           description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
           content:
@@ -1173,7 +1188,7 @@ paths:
           content:
             application/json:
               schema:
-                  $ref: "#/components/schemas/Profesional"
+                  $ref: "#/components/schemas/ProfesionalOut"
         '400':
           description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
           content:
@@ -1368,7 +1383,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: "#/components/schemas/Plan"
+                  $ref: "#/components/schemas/PlanOut"
               example:
                 - id: 1
                   nombre: "Gero Basquet"
@@ -1377,6 +1392,27 @@ paths:
                   fechaFin:
                   importante: true
                   descripcion: "Baloncesto adaptado"
+                  residentes:
+                    [
+                      {
+                        "id": 2,
+                        "nombre": "Victoria",
+                        "apellidos": "Garcia Sanchez",
+                        "dni": "78459632L",
+                        "fechaNacimiento": "03-08-1949",
+                        "sexo": "F",
+                        "saldo": 200.0
+                      },
+                      {
+                        "id": 10,
+                        "nombre": "Victorino",
+                        "apellidos": "Rodríguez Castro",
+                        "dni": "78459632L",
+                        "fechaNacimiento": "03-08-1947",
+                        "sexo": "M",
+                        "saldo": 0.0
+                      }
+                    ]
 
                 - id: 2
                   nombre: "Pasatiempos"
@@ -1385,6 +1421,8 @@ paths:
                   fechaFin:
                   importante: true
                   descripcion: "Taller de pasatiempos"
+                  residentes:
+                    []
         400:
           description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
           content:
@@ -1458,7 +1496,7 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: "#/components/schemas/Plan"
+                  $ref: "#/components/schemas/PlanOut"
         400:
           description: Hay un error en la consulta, algún aspecto de la solicitud no es válido.
           content:
@@ -1798,6 +1836,36 @@ components:
           format: int64
           example: 1
       type: object
+    ResidenteOut:
+      properties:
+        id:
+          type: number
+          format: int64
+          example: 1
+        nombre:
+          type: string
+          example: "Victorino"
+        apellidos:
+          type: string
+          example: "Rodríguez Castro"
+        dni:
+          type: string
+          example: "44091652P"
+        fecha de nacimiento:
+          type: string
+          format: date
+          example: "15-01-1972"
+        sexo:
+          type: string
+          example: "M"
+        saldo:
+          type: number
+          format: float
+          example: 55.37
+        familiares:
+          $ref: "#/components/schemas/Familiar"
+
+      type: object
     Residente:
       required:
         - nombre
@@ -1948,6 +2016,35 @@ components:
           type: number
           format: int64
           example: 1
+      type: object
+    PlanOut:
+      properties:
+        Id:
+          type: number
+          format: int64
+          example: 1
+        nombre:
+          type: string
+          example: "Gero Basquet"
+        terapia:
+          type: string
+          example: "Terapias activas"
+        fecha de inicio:
+          type: string
+          format: date
+          example: "10-04-2023"
+        fecha de fin:
+          type: string
+          format: date
+          example: ""
+        importante:
+          type: boolean
+          example: "true"
+        descripcion:
+          type: string
+          example: "Baloncesto adaptado"
+        residentes:
+          $ref: "#/components/schemas/Residente"
       type: object
     Plan:
       required:

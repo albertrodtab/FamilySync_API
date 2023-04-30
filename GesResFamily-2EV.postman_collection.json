@@ -43,7 +43,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/centro/2",
+							"raw": "http://localhost:8080/centro/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -51,7 +51,7 @@
 							"port": "8080",
 							"path": [
 								"centro",
-								"2"
+								"1"
 							]
 						}
 					},
@@ -250,7 +250,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"familiarId\": 2,\r\n    \"residenteId\": 10\r\n    }",
+							"raw": "{\r\n    \"familiarId\": 6,\r\n    \"residenteId\": 10\r\n    }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -258,7 +258,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/familiar/2/residente/10",
+							"raw": "http://localhost:8080/familiar/6/residente/10",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -266,7 +266,7 @@
 							"port": "8080",
 							"path": [
 								"familiar",
-								"2",
+								"6",
 								"residente",
 								"10"
 							]
@@ -299,7 +299,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/familiar/2",
+							"raw": "http://localhost:8080/familiar/3",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -307,7 +307,7 @@
 							"port": "8080",
 							"path": [
 								"familiar",
-								"2"
+								"3"
 							]
 						}
 					},
@@ -354,7 +354,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/familiar/2",
+							"raw": "http://localhost:8080/familiar/5",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -362,7 +362,7 @@
 							"port": "8080",
 							"path": [
 								"familiar",
-								"2"
+								"5"
 							]
 						}
 					},
@@ -990,7 +990,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/residente/hola",
+							"raw": "http://localhost:8080/residente/10",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -998,7 +998,7 @@
 							"port": "8080",
 							"path": [
 								"residente",
-								"hola"
+								"10"
 							]
 						}
 					},
