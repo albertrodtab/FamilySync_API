@@ -14,7 +14,7 @@
 	<name>gesresfamily</name>
 	<description>Proyecto para aplicación de comunicación con familias de un centro residencial de mayores</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
