@@ -1,0 +1,569 @@
+2023-09-03 16:40:41,828 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21h7m42s674ms935µs800ns).
+2023-09-03 17:51:11,738 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-09-03 17:51:11,742 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-09-03 17:51:11,753 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-09-03 17:51:13,092 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio getCentros
+2023-09-03 17:51:13,092 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Muestra todos los centros
+2023-09-03 17:51:13,094 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin getCentros
+2023-09-03 17:51:15,455 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-09-03 17:51:15,455 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-09-03 17:51:15,458 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-09-03 17:51:18,439 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-09-03 17:51:18,439 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-09-03 17:51:18,442 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-09-03 17:51:20,440 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-09-03 17:51:20,441 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-09-03 17:51:20,443 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-09-03 17:51:30,017 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-03 17:51:30,018 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-03 17:51:30,020 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-03 18:00:37,784 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-09-03 18:00:37,785 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-09-03 18:00:37,787 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-09-03 18:00:41,749 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-09-03 18:00:41,750 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-09-03 18:00:41,753 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-09-03 18:00:44,222 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-09-03 18:00:44,222 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-09-03 18:00:44,225 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-09-03 18:07:25,021 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-09-03 18:07:25,022 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-09-03 18:07:25,025 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-09-03 18:07:30,741 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-09-03 18:07:30,741 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-09-03 18:07:30,744 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-09-03 18:07:33,413 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-09-03 18:07:33,414 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-09-03 18:07:33,416 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-09-03 18:07:39,771 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-09-03 18:07:39,773 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-09-03 18:07:39,774 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-09-03 18:07:42,240 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-09-03 18:07:42,240 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-09-03 18:07:42,245 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-09-03 18:07:44,047 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-09-03 18:07:44,047 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-09-03 18:07:44,050 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-09-03 18:07:45,263 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Inicio getCentros
+2023-09-03 18:07:45,264 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Muestra todos los centros
+2023-09-03 18:07:45,267 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Fin getCentros
+2023-09-03 18:07:47,200 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-09-03 18:07:47,201 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-09-03 18:07:47,203 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-09-03 18:07:51,744 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio getCentros
+2023-09-03 18:07:51,744 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Muestra todos los centros
+2023-09-03 18:07:51,746 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin getCentros
+2023-09-03 18:08:56,923 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Inicio getProfesionales
+2023-09-03 18:08:56,924 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Muestra todos los profesionales
+2023-09-03 18:08:56,928 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Fin getProfesinales
+2023-09-03 18:09:04,392 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-09-03 18:09:04,393 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-09-03 18:09:04,395 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-09-03 18:11:57,550 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-09-03 18:11:57,550 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-09-03 18:11:57,557 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-09-03 18:12:05,607 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-09-03 18:12:05,607 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-09-03 18:12:05,610 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-09-03 18:12:07,296 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-09-03 18:12:07,296 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-09-03 18:12:07,298 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-09-03 18:12:09,111 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-1] Inicio getResidentes
+2023-09-03 18:12:09,112 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-1] Muestra todos los residentes
+2023-09-03 18:12:46,395 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-03 18:12:46,395 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-03 18:12:46,397 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-03 18:12:49,593 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-09-03 18:12:49,593 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-09-03 18:12:49,595 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-09-03 18:12:53,440 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Inicio getProfesionales
+2023-09-03 18:12:53,441 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Muestra todos los profesionales
+2023-09-03 18:12:53,442 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Fin getProfesinales
+2023-09-03 18:27:55,451 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-09-03 18:27:55,452 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-09-03 18:27:55,455 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-09-03 18:28:09,657 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Inicio getCentros
+2023-09-03 18:28:09,659 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Muestra todos los centros
+2023-09-03 18:28:09,661 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Fin getCentros
+2023-09-03 18:28:32,166 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio getCentros
+2023-09-03 18:28:32,167 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Muestra todos los centros
+2023-09-03 18:28:32,169 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin getCentros
+2023-09-03 18:28:35,947 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-09-03 18:28:35,947 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-09-03 18:28:35,949 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-09-03 18:30:09,553 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-09-03 18:30:09,555 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-09-03 18:30:09,557 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-09-03 18:30:51,256 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-09-03 18:30:51,257 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-09-03 18:30:51,259 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-09-03 18:32:02,179 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio addCentro
+2023-09-03 18:32:02,199 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin addCentro
+2023-09-03 18:32:19,781 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-09-03 18:32:19,781 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-09-03 18:32:19,785 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-09-03 18:33:07,126 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-09-03 18:33:07,126 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-09-03 18:33:07,128 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-09-03 18:33:08,220 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-09-03 18:33:08,220 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-09-03 18:33:08,222 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-09-03 18:33:17,810 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio getCentros
+2023-09-03 18:33:17,810 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Muestra todos los centros
+2023-09-03 18:33:17,812 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin getCentros
+2023-09-03 18:40:42,664 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio getCentros
+2023-09-03 18:40:42,665 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Muestra todos los centros
+2023-09-03 18:40:42,668 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin getCentros
+2023-09-03 18:41:01,007 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-09-03 18:41:01,007 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-09-03 18:41:01,009 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-09-03 18:45:17,207 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-09-03 18:45:17,207 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-09-03 18:45:17,210 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-09-03 18:45:46,943 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio modifyCentro
+2023-09-03 18:45:46,973 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin modifyCentro
+2023-09-03 18:46:05,646 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-09-03 18:46:05,646 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-09-03 18:46:05,650 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-09-03 18:46:46,826 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-09-03 18:46:46,826 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-09-03 18:46:46,828 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-09-03 18:48:25,912 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-09-03 18:48:25,912 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-09-03 18:48:25,914 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-09-03 18:48:45,118 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio modifyCentro
+2023-09-03 18:48:45,122 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin modifyCentro
+2023-09-03 18:49:01,645 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-09-03 18:49:01,647 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-09-03 18:49:01,649 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-09-03 18:49:03,258 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio getCentros
+2023-09-03 18:49:03,258 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Muestra todos los centros
+2023-09-03 18:49:03,260 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin getCentros
+2023-09-03 18:54:01,782 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio getCentros
+2023-09-03 18:54:01,783 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Muestra todos los centros
+2023-09-03 18:54:01,785 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin getCentros
+2023-09-03 18:54:04,428 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-09-03 18:54:04,428 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-09-03 18:54:04,431 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-09-03 18:55:05,208 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio addFamiliar
+2023-09-03 18:55:05,214 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin addFamiliar
+2023-09-03 18:55:07,510 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-09-03 18:55:07,511 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-09-03 18:55:07,514 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-09-03 18:55:17,747 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-09-03 18:55:17,747 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-09-03 18:55:17,749 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-09-03 18:55:40,878 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio modifyFamiliar
+2023-09-03 18:55:40,884 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin modifyFamiliar
+2023-09-03 18:55:42,481 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-03 18:55:42,482 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-03 18:55:42,483 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-03 19:22:50,862 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-09-03 19:22:50,862 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-09-03 19:22:50,867 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-09-03 19:22:54,388 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-09-03 19:22:54,389 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-09-03 19:22:54,392 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-09-03 19:23:04,103 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-09-03 19:23:04,103 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-09-03 19:23:04,105 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-09-03 19:26:14,214 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Inicio getProfesionales
+2023-09-03 19:26:14,214 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Muestra todos los profesionales
+2023-09-03 19:26:14,216 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Fin getProfesinales
+2023-09-03 19:26:17,553 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-09-03 19:26:17,554 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-09-03 19:26:17,556 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-09-03 19:27:04,496 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-09-03 19:27:04,496 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-09-03 19:27:04,498 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-09-03 19:27:06,949 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-09-03 19:27:06,949 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-09-03 19:27:06,952 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-09-03 19:29:43,694 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-03 19:29:43,695 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-03 19:29:43,698 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-03 19:29:53,232 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-09-03 19:29:53,232 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-09-03 19:29:53,234 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-09-03 20:26:17,007 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-09-03 20:26:17,012 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-09-03 20:26:17,024 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-09-03 20:28:49,439 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-09-03 20:28:49,439 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-09-03 20:28:49,441 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-09-03 20:29:50,576 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio getCentros
+2023-09-03 20:29:50,577 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Muestra todos los centros
+2023-09-03 20:29:50,579 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin getCentros
+2023-09-03 20:29:51,712 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-09-03 20:29:51,712 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-09-03 20:29:51,714 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-09-03 20:29:57,312 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-09-03 20:29:57,312 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-09-03 20:29:57,314 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-09-03 20:29:59,994 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-09-03 20:29:59,995 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-09-03 20:29:59,996 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-09-03 20:30:02,702 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-09-03 20:30:02,702 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-09-03 20:30:02,704 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-09-03 20:30:11,268 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-09-03 20:30:11,268 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-09-03 20:30:11,271 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-09-03 20:30:24,167 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-09-03 20:30:24,168 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-09-03 20:30:24,170 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-09-03 20:30:28,059 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-09-03 20:30:28,060 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-09-03 20:30:28,062 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-09-03 20:32:20,995 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-09-03 20:32:20,996 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-09-03 20:32:20,998 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-09-03 20:35:37,925 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio getCentros
+2023-09-03 20:35:37,926 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Muestra todos los centros
+2023-09-03 20:35:37,928 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin getCentros
+2023-09-03 20:35:49,264 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-09-03 20:35:49,265 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-09-03 20:35:49,267 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-09-03 20:36:00,177 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-09-03 20:36:00,178 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-09-03 20:36:00,179 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-09-03 20:36:49,543 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio addCentro
+2023-09-03 20:36:49,554 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin addCentro
+2023-09-03 20:36:52,689 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-09-03 20:36:52,690 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-09-03 20:36:52,692 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-09-03 20:37:05,663 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Inicio modifyCentro
+2023-09-03 20:37:05,667 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Fin modifyCentro
+2023-09-03 20:37:07,837 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-09-03 20:37:07,837 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-09-03 20:37:07,839 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-09-03 20:37:23,255 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio modifyCentro
+2023-09-03 20:37:23,261 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin modifyCentro
+2023-09-03 20:37:24,435 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-09-03 20:37:24,435 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-09-03 20:37:24,437 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-09-03 20:37:28,731 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-09-03 20:37:28,731 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-09-03 20:37:28,733 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-09-03 20:37:35,900 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-09-03 20:37:35,900 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-09-03 20:37:35,902 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-09-03 20:37:38,652 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-09-03 20:37:38,652 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-09-03 20:37:38,654 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-09-03 20:37:43,890 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-09-03 20:37:43,891 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-09-03 20:37:43,893 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-09-03 20:37:56,537 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-03 20:37:56,538 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-03 20:37:56,540 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-03 20:37:58,437 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-4] Inicio getResidentes
+2023-09-03 20:37:58,437 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-4] Muestra todos los residentes
+2023-09-03 20:42:53,563 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-3] Inicio getResidentes
+2023-09-03 20:42:53,563 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-3] Muestra todos los residentes
+2023-09-03 20:43:02,075 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-09-03 20:43:02,075 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-09-03 20:43:02,079 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-09-03 20:43:22,120 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-09-03 20:43:22,121 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-09-03 20:43:22,124 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-09-03 20:43:27,955 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio getCentros
+2023-09-03 20:43:27,955 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Muestra todos los centros
+2023-09-03 20:43:27,958 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin getCentros
+2023-09-03 20:43:43,848 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-09-03 20:43:43,848 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-09-03 20:43:43,852 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-09-03 20:43:48,428 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-09-03 20:43:48,429 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-09-03 20:43:48,431 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-09-03 20:43:51,306 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-09-03 20:43:51,306 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-09-03 20:43:51,308 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-09-03 20:43:59,741 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-09-03 20:43:59,742 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-09-03 20:43:59,744 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-09-03 20:45:48,665 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Inicio getProfesionales
+2023-09-03 20:45:48,666 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Muestra todos los profesionales
+2023-09-03 20:45:48,668 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Fin getProfesinales
+2023-09-03 21:40:00,162 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-09-03 21:40:00,170 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-09-03 21:40:00,180 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-09-03 21:40:15,896 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-09-03 21:40:15,896 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-09-03 21:40:15,899 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-09-03 21:40:18,429 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-09-03 21:40:18,429 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-09-03 21:40:18,432 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-09-03 21:40:20,613 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-09-03 21:40:20,613 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-09-03 21:40:20,615 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-09-03 21:40:25,903 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-09-03 21:40:25,904 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-09-03 21:40:25,906 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-09-03 21:44:27,237 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-09-03 21:44:27,238 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-09-03 21:44:27,242 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-09-03 21:56:10,834 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-09-03 21:56:10,835 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-09-03 21:56:10,840 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-09-03 21:56:12,487 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-09-03 21:56:12,488 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-09-03 21:56:12,491 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-09-03 21:56:14,541 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Inicio getCentros
+2023-09-03 21:56:14,541 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Muestra todos los centros
+2023-09-03 21:56:14,543 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Fin getCentros
+2023-09-03 21:57:46,828 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio modifyCentro
+2023-09-03 21:57:46,862 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin modifyCentro
+2023-09-03 21:57:50,029 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-09-03 21:57:50,029 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-09-03 21:57:50,031 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-09-03 21:58:37,667 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio modifyCentro
+2023-09-03 21:58:37,676 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin modifyCentro
+2023-09-03 21:58:40,530 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio getCentros
+2023-09-03 21:58:40,531 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Muestra todos los centros
+2023-09-03 21:58:40,535 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin getCentros
+2023-09-03 21:58:44,009 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-09-03 21:58:44,009 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-09-03 21:58:44,016 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-09-03 21:59:00,572 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-03 21:59:00,573 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-03 21:59:00,575 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-03 21:59:20,374 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-09-03 21:59:20,374 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-09-03 21:59:20,376 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-09-03 22:01:33,682 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-09-03 22:01:33,686 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-09-03 22:01:33,689 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-09-03 22:01:43,583 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Inicio getProfesionales
+2023-09-03 22:01:43,583 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Muestra todos los profesionales
+2023-09-03 22:01:43,626 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Fin getProfesinales
+2023-09-03 22:02:30,016 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-09-03 22:02:30,016 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-09-03 22:02:30,019 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-09-03 22:02:30,995 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-09-03 22:02:30,996 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-09-03 22:02:30,998 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-09-03 22:08:11,045 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Inicio getCentros
+2023-09-03 22:08:11,046 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Muestra todos los centros
+2023-09-03 22:08:11,049 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Fin getCentros
+2023-09-03 22:09:17,745 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio addCentro
+2023-09-03 22:09:17,765 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin addCentro
+2023-09-03 22:09:19,133 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-09-03 22:09:19,135 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-09-03 22:09:19,139 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-09-03 22:09:27,331 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-09-03 22:09:27,331 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-09-03 22:09:27,333 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-09-03 22:12:07,073 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-09-03 22:12:07,073 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-09-03 22:12:07,075 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-09-03 22:12:31,512 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 103] (through reference chain: com.alberto.gesresfamily.domain.Profesional["fechaNacimiento"])]
+2023-09-03 22:12:32,350 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-03 22:12:32,351 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-03 22:12:32,353 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-03 22:12:51,355 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 103] (through reference chain: com.alberto.gesresfamily.domain.Profesional["fechaNacimiento"])]
+2023-09-03 22:13:23,228 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-09-03 22:13:23,228 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-09-03 22:13:23,231 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-09-03 22:13:33,835 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 103] (through reference chain: com.alberto.gesresfamily.domain.Profesional["fechaNacimiento"])]
+2023-09-03 22:13:34,415 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-09-03 22:13:34,415 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-09-03 22:13:34,419 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-09-03 22:13:37,882 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-09-03 22:13:37,884 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-09-03 22:13:37,887 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-09-03 22:14:09,139 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-09-03 22:14:09,140 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-09-03 22:14:09,144 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-09-03 22:23:16,061 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-09-03 22:23:16,062 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-09-03 22:23:16,064 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-09-03 22:23:27,478 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 103] (through reference chain: com.alberto.gesresfamily.domain.Profesional["fechaNacimiento"])]
+2023-09-03 22:23:28,038 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-09-03 22:23:28,038 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-09-03 22:23:28,040 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-09-03 22:31:12,358 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-09-03 22:31:12,358 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-09-03 22:31:12,361 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-09-03 22:31:26,345 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 103] (through reference chain: com.alberto.gesresfamily.domain.Profesional["fechaNacimiento"])]
+2023-09-03 22:31:26,886 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-03 22:31:26,886 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-03 22:31:26,888 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-03 22:35:23,764 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-09-03 22:35:23,764 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-09-03 22:35:23,767 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-09-03 22:35:52,141 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio modifyCentro
+2023-09-03 22:35:52,150 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin modifyCentro
+2023-09-03 22:35:57,916 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-09-03 22:35:57,917 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-09-03 22:35:57,919 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-09-03 22:36:05,560 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-09-03 22:36:05,561 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-09-03 22:36:05,563 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-09-03 22:46:32,026 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-03 22:46:32,027 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-03 22:46:32,031 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-03 22:46:46,132 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 103] (through reference chain: com.alberto.gesresfamily.domain.Profesional["fechaNacimiento"])]
+2023-09-03 22:46:46,763 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-09-03 22:46:46,763 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-09-03 22:46:46,765 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-09-03 22:47:20,452 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 103] (through reference chain: com.alberto.gesresfamily.domain.Profesional["fechaNacimiento"])]
+2023-09-03 22:47:47,504 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-09-03 22:47:47,504 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-09-03 22:47:47,507 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-09-03 22:48:00,899 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio modifyFamiliar
+2023-09-03 22:48:00,913 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin modifyFamiliar
+2023-09-03 22:48:04,340 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-09-03 22:48:04,341 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-09-03 22:48:04,343 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-09-03 22:48:19,409 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio removeFamiliar
+2023-09-03 22:48:19,562 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-9] SQL Error: 1451, SQLState: 23000
+2023-09-03 22:48:19,567 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-9] Cannot delete or update a parent row: a foreign key constraint fails (`gesresfamilydb`.`comunicados`, CONSTRAINT `FK87uxaxvp0xyhowhnw6ntmv6ya` FOREIGN KEY (`profesional_id`) REFERENCES `profesionales` (`id`))
+2023-09-03 22:48:19,572 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8080-exec-9] HHH000010: On release of batch it still contained JDBC statements
+2023-09-03 22:48:19,655 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-9] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`gesresfamilydb`.`comunicados`, CONSTRAINT `FK87uxaxvp0xyhowhnw6ntmv6ya` FOREIGN KEY (`profesional_id`) REFERENCES `profesionales` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3698)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3987)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:123)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy2/jdk.proxy2.$Proxy136.delete(Unknown Source)
+	at com.alberto.gesresfamily.service.ProfesionalServiceImpl.removeProfesional(ProfesionalServiceImpl.java:51)
+	at com.alberto.gesresfamily.controller.ProfesionalController.removeProfesional(ProfesionalController.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-09-03 22:48:31,933 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-03 22:48:31,934 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-03 22:48:31,938 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-03 22:48:32,676 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Inicio getProfesionales
+2023-09-03 22:48:32,676 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Muestra todos los profesionales
+2023-09-03 22:48:32,678 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Fin getProfesinales
+2023-09-03 23:29:48,674 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-09-03 23:29:48,675 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-09-03 23:29:48,678 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-09-03 23:29:54,777 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "Sep 26, 1982 00:00:00": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text 'Sep 26, 1982 00:00:00' could not be parsed at index 0<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 103] (through reference chain: com.alberto.gesresfamily.domain.Profesional["fechaNacimiento"])]
+2023-09-03 23:29:55,291 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-03 23:29:55,292 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-03 23:29:55,294 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-03 23:43:32,981 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 23:43:33,004 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-09-03 23:43:33,012 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-09-03 23:44:03,723 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-09-03 23:44:03,729 INFO org.springframework.boot.StartupInfoLogger [main] Starting GesresfamilyApplication using Java 17.0.5 on Albertrodtab with PID 20596 (D:\DAM 22_23\AD\gesresfamily2EV\target\classes started by albertrodtab in D:\DAM 22_23\AD\gesresfamily2EV)
+2023-09-03 23:44:03,730 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-03 23:44:04,190 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-03 23:44:04,192 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-03 23:44:04,214 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.CentroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-09-03 23:44:04,215 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.FamiliarRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-09-03 23:44:04,217 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.PlanRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-09-03 23:44:04,218 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ProfesionalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-09-03 23:44:04,219 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ResidenteRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-09-03 23:44:04,220 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
+2023-09-03 23:44:04,225 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-03 23:44:04,226 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-03 23:44:04,252 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 23 ms. Found 5 JPA repository interfaces.
+2023-09-03 23:44:04,629 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-09-03 23:44:04,637 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-03 23:44:04,637 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-03 23:44:04,638 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-09-03 23:44:04,716 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-03 23:44:04,716 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 945 ms
+2023-09-03 23:44:04,804 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-03 23:44:04,840 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-09-03 23:44:04,933 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-03 23:44:04,995 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-09-03 23:44:05,259 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-09-03 23:44:05,277 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-03 23:44:05,826 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-03 23:44:05,831 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 23:44:06,096 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-03 23:44:06,292 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-09-03 23:44:06,310 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-03 23:44:06,316 INFO org.springframework.boot.StartupInfoLogger [main] Started GesresfamilyApplication in 2.857 seconds (JVM running for 3.187)

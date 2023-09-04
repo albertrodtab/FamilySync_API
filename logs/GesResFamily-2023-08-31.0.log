@@ -1,0 +1,409 @@
+2023-08-31 12:11:55,063 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h11m31s426ms357µs400ns).
+2023-08-31 13:32:58,638 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-08-31 13:32:58,644 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-08-31 13:32:58,657 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-08-31 13:33:38,671 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-08-31 13:33:38,672 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-08-31 13:33:38,675 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-08-31 13:37:42,840 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 13:37:42,841 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 13:37:42,843 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 13:44:56,547 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Inicio getProfesionales
+2023-08-31 13:44:56,548 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Muestra todos los profesionales
+2023-08-31 13:44:56,551 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Fin getProfesinales
+2023-08-31 13:56:10,517 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-08-31 13:56:10,517 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-08-31 13:56:10,523 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-08-31 13:56:16,424 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-08-31 13:56:16,426 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-08-31 13:56:16,428 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-08-31 13:56:24,418 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Inicio getCentros
+2023-08-31 13:56:24,418 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Muestra todos los centros
+2023-08-31 13:56:24,420 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Fin getCentros
+2023-08-31 13:56:27,906 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-1] Inicio getResidentes
+2023-08-31 13:56:27,906 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-1] Muestra todos los residentes
+2023-08-31 13:56:33,392 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 13:56:33,393 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 13:56:33,394 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 14:00:42,993 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-08-31 14:00:42,994 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-08-31 14:00:42,997 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-08-31 14:00:46,296 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-08-31 14:00:46,297 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-08-31 14:00:46,300 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-08-31 14:00:51,038 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio getCentros
+2023-08-31 14:00:51,039 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Muestra todos los centros
+2023-08-31 14:00:51,043 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin getCentros
+2023-08-31 14:00:53,321 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-2] Inicio getResidentes
+2023-08-31 14:00:53,321 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-2] Muestra todos los residentes
+2023-08-31 14:00:59,059 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-3] Inicio getResidentes
+2023-08-31 14:00:59,060 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-3] Muestra todos los residentes
+2023-08-31 14:01:01,298 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-08-31 14:01:01,299 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-08-31 14:01:01,303 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-08-31 14:01:14,493 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-8] Inicio getResidentes
+2023-08-31 14:01:14,494 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-8] Muestra todos los residentes
+2023-08-31 14:03:28,135 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Inicio getCentros
+2023-08-31 14:03:28,136 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Muestra todos los centros
+2023-08-31 14:03:28,138 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Fin getCentros
+2023-08-31 14:03:33,039 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-08-31 14:03:33,039 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-08-31 14:03:33,041 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-08-31 14:03:39,493 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 14:03:39,494 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 14:03:39,496 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 14:03:49,702 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-08-31 14:03:49,703 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-08-31 14:03:49,706 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-08-31 14:03:53,548 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-08-31 14:03:53,549 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-08-31 14:03:53,551 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-08-31 14:03:57,028 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-8] Inicio getResidentes
+2023-08-31 14:03:57,029 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-8] Muestra todos los residentes
+2023-08-31 14:04:02,224 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-2] Inicio getResidentes
+2023-08-31 14:04:02,225 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-2] Muestra todos los residentes
+2023-08-31 14:08:04,158 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-08-31 14:08:04,158 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-08-31 14:08:04,163 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-08-31 14:08:07,077 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-08-31 14:08:07,078 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-08-31 14:08:07,080 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-08-31 14:08:08,450 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-6] Inicio getResidentes
+2023-08-31 14:08:08,451 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-6] Muestra todos los residentes
+2023-08-31 14:08:15,430 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 14:08:15,431 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 14:08:15,435 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 14:08:56,389 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-10] Inicio getResidentes
+2023-08-31 14:08:56,389 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-10] Muestra todos los residentes
+2023-08-31 14:11:04,151 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-08-31 14:11:04,152 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-08-31 14:11:04,157 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-08-31 14:11:07,000 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-3] Inicio getResidentes
+2023-08-31 14:11:07,000 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-3] Muestra todos los residentes
+2023-08-31 14:11:11,947 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 14:11:11,948 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 14:11:11,953 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 14:11:22,315 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-1] Inicio getResidentes
+2023-08-31 14:11:22,318 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-1] Muestra todos los residentes
+2023-08-31 14:12:43,890 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 14:12:43,891 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 14:12:43,894 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 14:17:58,367 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-08-31 14:17:58,367 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-08-31 14:17:58,370 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-08-31 14:18:00,920 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 14:18:00,920 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 14:18:00,922 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 14:18:05,157 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 14:18:05,157 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 14:18:05,160 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 14:18:06,972 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-8] Inicio getResidentes
+2023-08-31 14:18:06,972 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-8] Muestra todos los residentes
+2023-08-31 14:18:12,344 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-10] Inicio getResidentes
+2023-08-31 14:18:12,345 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-10] Muestra todos los residentes
+2023-08-31 14:18:27,887 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-4] Inicio getResidentes
+2023-08-31 14:18:27,888 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-4] Muestra todos los residentes
+2023-08-31 14:18:32,767 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-08-31 14:18:32,767 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-08-31 14:18:32,770 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-08-31 14:18:54,622 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 14:18:54,622 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 14:18:54,624 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 14:18:55,741 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 14:18:55,742 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 14:18:55,744 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 14:33:40,001 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-08-31 14:33:40,002 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-08-31 14:33:40,005 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-08-31 14:34:05,633 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio getCentros
+2023-08-31 14:34:05,634 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Muestra todos los centros
+2023-08-31 14:34:05,637 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin getCentros
+2023-08-31 14:34:06,869 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-08-31 14:34:06,869 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-08-31 14:34:06,871 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-08-31 14:34:09,060 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-08-31 14:34:09,060 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-08-31 14:34:09,063 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-08-31 14:34:16,752 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio removeCentro
+2023-08-31 14:34:16,780 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin removeCentro
+2023-08-31 14:34:47,416 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio modifyCentro
+2023-08-31 14:34:47,435 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin modifyCentro
+2023-08-31 14:34:49,549 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-08-31 14:34:49,549 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-08-31 14:34:49,552 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-08-31 14:35:01,090 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio modifyCentro
+2023-08-31 14:35:01,095 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin modifyCentro
+2023-08-31 14:35:02,061 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Inicio getCentros
+2023-08-31 14:35:02,061 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Muestra todos los centros
+2023-08-31 14:35:02,063 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Fin getCentros
+2023-08-31 14:35:12,271 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 14:35:12,272 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 14:35:12,274 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 14:35:25,080 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-08-31 14:35:25,081 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-08-31 14:35:25,083 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-08-31 14:44:32,568 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-08-31 14:44:32,568 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-08-31 14:44:32,572 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-08-31 14:51:22,003 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 14:51:22,003 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 14:51:22,009 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 14:51:29,804 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-08-31 14:51:29,805 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-08-31 14:51:29,808 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-08-31 14:51:33,667 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-08-31 14:51:33,667 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-08-31 14:51:33,673 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-08-31 14:51:35,937 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 14:51:35,937 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 14:51:35,940 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 14:51:50,800 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-08-31 14:51:50,800 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-08-31 14:51:50,803 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-08-31 15:01:56,558 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-08-31 15:01:56,558 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-08-31 15:01:56,562 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-08-31 15:02:00,061 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-08-31 15:02:00,062 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-08-31 15:02:00,064 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-08-31 15:02:07,137 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-08-31 15:02:07,137 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-08-31 15:02:07,141 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-08-31 15:02:12,558 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-08-31 15:02:12,559 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-08-31 15:02:12,561 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-08-31 15:02:16,020 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-08-31 15:02:16,020 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-08-31 15:02:16,024 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-08-31 15:02:17,795 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-08-31 15:02:17,796 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-08-31 15:02:17,798 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-08-31 15:02:19,681 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-10] Inicio getResidentes
+2023-08-31 15:02:19,681 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-10] Muestra todos los residentes
+2023-08-31 15:02:22,113 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-4] Inicio getResidentes
+2023-08-31 15:02:22,114 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-4] Muestra todos los residentes
+2023-08-31 15:02:25,516 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-3] Inicio getResidentes
+2023-08-31 15:02:25,517 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-3] Muestra todos los residentes
+2023-08-31 15:02:28,448 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-08-31 15:02:28,449 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-08-31 15:02:28,451 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-08-31 15:02:30,446 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 15:02:30,446 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 15:02:30,448 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 15:17:37,195 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-08-31 15:17:37,196 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-08-31 15:17:37,200 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-08-31 15:17:41,689 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-08-31 15:17:41,690 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-08-31 15:17:41,692 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-08-31 15:17:42,140 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 15:17:42,141 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 15:17:42,143 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 16:27:26,723 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-08-31 16:27:26,724 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-08-31 16:27:26,728 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-08-31 18:37:01,089 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m245ms5µs700ns).
+2023-08-31 18:46:41,817 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-08-31 18:46:41,818 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-08-31 18:46:41,822 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-08-31 18:46:43,799 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-08-31 18:46:43,799 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-08-31 18:46:43,804 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-08-31 18:46:59,849 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-08-31 18:46:59,850 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-08-31 18:46:59,854 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-08-31 18:55:59,513 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 18:55:59,514 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 18:55:59,518 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 18:56:08,892 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 18:56:08,892 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 18:56:08,896 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 18:58:05,455 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 18:58:05,456 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 18:58:05,460 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 18:58:10,066 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-08-31 18:58:10,066 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-08-31 18:58:10,070 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-08-31 18:59:11,934 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 18:59:11,935 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 18:59:11,938 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 19:02:12,948 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 19:02:12,948 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 19:02:12,954 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 19:13:49,669 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 19:13:49,670 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 19:13:49,675 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 19:15:39,557 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 19:15:39,558 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 19:15:39,564 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 19:15:43,778 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-08-31 19:15:43,779 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-08-31 19:15:43,785 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-08-31 19:20:17,380 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 19:20:17,381 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 19:20:17,386 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 20:08:08,520 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 20:08:08,522 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 20:08:08,530 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 20:08:15,422 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Inicio getProfesionales
+2023-08-31 20:08:15,422 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Muestra todos los profesionales
+2023-08-31 20:08:15,424 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Fin getProfesinales
+2023-08-31 20:11:50,392 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 20:11:50,393 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 20:11:50,397 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 20:41:24,367 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-08-31 20:41:24,370 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-08-31 20:41:24,376 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-08-31 20:56:47,492 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 20:56:47,493 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 20:56:47,527 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 20:57:47,322 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-08-31 20:57:47,323 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-08-31 20:57:47,327 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-08-31 20:57:53,329 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 20:57:53,329 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 20:57:53,332 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 21:13:32,292 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 21:13:32,293 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 21:13:32,302 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 21:17:43,773 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-08-31 21:17:43,774 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-08-31 21:17:43,777 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-08-31 21:29:04,532 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 21:29:04,533 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 21:29:04,536 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 21:30:24,816 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 21:30:24,817 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 21:30:24,821 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 21:32:45,753 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 21:32:45,754 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 21:32:45,757 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 21:33:11,164 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-08-31 21:33:11,164 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-08-31 21:33:11,167 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-08-31 21:33:26,790 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 21:33:26,790 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 21:33:26,794 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 21:39:23,799 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 21:39:23,800 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 21:39:23,808 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 21:39:49,880 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 21:39:49,880 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 21:39:49,883 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 21:40:28,208 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Inicio getProfesionales
+2023-08-31 21:40:28,208 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Muestra todos los profesionales
+2023-08-31 21:40:28,210 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Fin getProfesinales
+2023-08-31 22:30:47,796 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 22:30:47,797 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 22:30:47,802 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 22:32:19,207 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-08-31 22:32:19,207 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-08-31 22:32:19,210 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-08-31 22:33:13,226 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 22:33:13,226 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 22:33:13,230 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 22:33:23,564 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 22:33:23,564 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 22:33:23,566 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 22:33:48,177 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 22:33:48,179 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 22:33:48,183 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 22:34:15,535 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 22:34:15,536 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 22:34:15,540 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 22:34:19,318 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-08-31 22:34:19,318 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-08-31 22:34:19,321 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-08-31 22:35:11,085 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 22:35:11,086 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 22:35:11,090 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 22:35:29,914 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-08-31 22:35:29,914 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-08-31 22:35:29,917 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-08-31 22:35:58,940 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 22:35:58,941 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 22:35:58,944 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 22:38:10,493 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 22:38:10,494 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 22:38:10,499 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 22:38:13,454 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-08-31 22:38:13,456 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-08-31 22:38:13,458 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-08-31 22:50:44,752 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 22:50:44,752 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 22:50:44,756 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 22:52:07,112 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 22:52:07,113 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 22:52:07,115 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 22:53:17,924 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 22:53:17,925 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 22:53:17,927 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 22:53:39,102 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 22:53:39,103 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 22:53:39,107 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 22:55:31,215 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-08-31 22:55:31,216 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-08-31 22:55:31,219 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-08-31 22:56:45,569 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 22:56:45,572 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 22:56:45,574 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 23:04:01,316 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-08-31 23:04:01,317 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-08-31 23:04:01,320 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-08-31 23:04:22,631 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 23:04:22,632 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 23:04:22,636 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 23:12:22,822 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 23:12:22,823 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 23:12:22,827 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 23:13:45,470 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-08-31 23:13:45,470 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-08-31 23:13:45,473 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-08-31 23:14:43,013 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 23:14:43,014 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 23:14:43,017 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 23:14:58,616 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-08-31 23:14:58,617 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-08-31 23:14:58,621 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-08-31 23:16:49,518 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 23:16:49,518 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 23:16:49,522 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 23:22:54,019 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 23:22:54,020 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 23:22:54,023 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 23:23:06,260 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-08-31 23:23:06,260 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-08-31 23:23:06,263 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-08-31 23:23:11,281 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-08-31 23:23:11,282 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-08-31 23:23:11,285 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-08-31 23:23:15,603 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 23:23:15,603 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 23:23:15,607 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 23:23:18,087 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-08-31 23:23:18,088 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-08-31 23:23:18,091 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-08-31 23:24:25,507 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-31 23:24:25,507 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-31 23:24:25,509 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales
+2023-08-31 23:42:33,119 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-08-31 23:42:33,120 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-08-31 23:42:33,125 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-08-31 23:42:38,146 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-08-31 23:42:38,146 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-08-31 23:42:38,149 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-08-31 23:43:28,123 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 23:43:28,124 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 23:43:28,128 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-31 23:43:48,961 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Inicio getProfesionales
+2023-08-31 23:43:48,962 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Muestra todos los profesionales
+2023-08-31 23:43:48,965 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Fin getProfesinales
+2023-08-31 23:43:53,439 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-08-31 23:43:53,440 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-08-31 23:43:53,443 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-08-31 23:43:57,698 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-08-31 23:43:57,699 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-08-31 23:43:57,704 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-08-31 23:47:27,825 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-31 23:47:27,826 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-31 23:47:27,829 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
