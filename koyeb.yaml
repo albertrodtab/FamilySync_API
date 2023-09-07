@@ -1,0 +1,5 @@
+routes:
+  - path: /
+    type: static
+    source: /
+    target: /index.html
