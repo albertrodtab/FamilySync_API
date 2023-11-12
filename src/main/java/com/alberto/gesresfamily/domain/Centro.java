@@ -40,6 +40,15 @@ public class Centro {
     private String email;
     @Column
     private String telefono;
+    @Column (name = "tiene_wifi")
+    private Boolean tieneWifi;
+    @Column
+    private Double longitude;
+    @Column
+    private Double latitude;
+    @Column
+    private String photoUri;
+
 
     @OneToMany(mappedBy = "centro")
     private List<Residente> residentes;

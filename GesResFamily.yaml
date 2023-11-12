@@ -1914,7 +1914,7 @@ components:
           example: "78912345D"
         fecha de nacimiento:
           type: string
-          format: date
+          format: dd
           example: "15-01-1972"
         telefono:
           type: string

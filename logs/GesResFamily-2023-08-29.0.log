@@ -1,0 +1,246 @@
+2023-08-29 17:46:12,644 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18h15m41s264ms501µs700ns).
+2023-08-29 17:54:01,907 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-29 17:54:01,925 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-29 17:54:01,933 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-29 17:54:16,356 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-08-29 17:54:16,361 INFO org.springframework.boot.StartupInfoLogger [main] Starting GesresfamilyApplication using Java 17.0.5 on Albertrodtab with PID 24948 (D:\DAM 22_23\AD\gesresfamily2EV\target\classes started by albertrodtab in D:\DAM 22_23\AD\gesresfamily2EV)
+2023-08-29 17:54:16,362 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-29 17:54:16,824 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-29 17:54:16,825 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-29 17:54:16,846 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.CentroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-08-29 17:54:16,847 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.FamiliarRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-08-29 17:54:16,849 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.PlanRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-08-29 17:54:16,850 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ProfesionalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-08-29 17:54:16,852 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ResidenteRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-08-29 17:54:16,853 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+2023-08-29 17:54:16,857 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-29 17:54:16,858 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-29 17:54:16,882 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 20 ms. Found 5 JPA repository interfaces.
+2023-08-29 17:54:17,256 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-29 17:54:17,263 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-29 17:54:17,264 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-29 17:54:17,264 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-08-29 17:54:17,341 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-29 17:54:17,341 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 939 ms
+2023-08-29 17:54:17,428 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-29 17:54:17,466 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-08-29 17:54:17,563 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-29 17:54:17,620 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-29 17:54:17,882 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-29 17:54:17,901 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-08-29 17:54:18,478 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-29 17:54:18,485 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-29 17:54:18,753 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-29 17:54:18,968 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-29 17:54:18,984 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-29 17:54:18,989 INFO org.springframework.boot.StartupInfoLogger [main] Started GesresfamilyApplication in 2.892 seconds (JVM running for 3.233)
+2023-08-29 17:54:56,086 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-29 17:54:56,086 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-08-29 17:54:56,087 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2023-08-29 17:54:56,108 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-08-29 17:54:56,109 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-08-29 17:54:56,211 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-08-29 17:55:55,453 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio addCentro
+2023-08-29 17:55:55,473 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin addCentro
+2023-08-29 17:55:57,323 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio getCentros
+2023-08-29 17:55:57,324 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Muestra todos los centros
+2023-08-29 17:55:57,331 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin getCentros
+2023-08-29 17:56:38,086 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-08-29 17:56:38,087 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-08-29 17:56:38,091 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-08-29 17:57:01,330 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-08-29 17:57:01,331 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-08-29 17:57:01,334 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-08-29 17:57:16,893 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-29 17:57:16,893 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-29 17:57:16,898 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-29 17:57:20,522 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-2] Inicio getResidentes
+2023-08-29 17:57:20,522 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-2] Muestra todos los residentes
+2023-08-29 17:59:18,912 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-08-29 17:59:18,912 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-08-29 17:59:18,919 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-08-29 17:59:29,199 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-08-29 17:59:29,199 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-08-29 17:59:29,203 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-08-29 18:02:14,538 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-08-29 18:02:14,538 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-08-29 18:02:14,545 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-08-29 18:02:18,173 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Inicio getCentros
+2023-08-29 18:02:18,176 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Muestra todos los centros
+2023-08-29 18:02:18,179 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Fin getCentros
+2023-08-29 18:02:36,699 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio getCentros
+2023-08-29 18:02:36,705 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Muestra todos los centros
+2023-08-29 18:02:36,708 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin getCentros
+2023-08-29 18:02:42,638 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-08-29 18:02:42,639 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-08-29 18:02:42,642 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-08-29 18:47:39,348 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-08-29 18:47:39,349 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-08-29 18:47:39,357 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-08-29 18:47:43,041 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-08-29 18:47:43,042 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-08-29 18:47:43,047 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-08-29 18:48:15,490 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-08-29 18:48:15,491 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-08-29 18:48:15,495 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-08-29 18:54:17,809 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio getCentros
+2023-08-29 18:54:17,809 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Muestra todos los centros
+2023-08-29 18:54:17,815 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin getCentros
+2023-08-29 18:55:01,532 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-08-29 18:55:01,532 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-08-29 18:55:01,536 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-08-29 18:55:42,413 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-08-29 18:55:42,414 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-08-29 18:55:42,417 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-08-29 18:58:20,151 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-08-29 18:58:20,151 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-08-29 18:58:20,153 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-08-29 19:02:37,715 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-08-29 19:02:37,715 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-08-29 19:02:37,718 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-08-29 19:05:01,368 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio getCentros
+2023-08-29 19:05:01,368 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Muestra todos los centros
+2023-08-29 19:05:01,371 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin getCentros
+2023-08-29 19:08:29,561 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio getCentros
+2023-08-29 19:08:29,562 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Muestra todos los centros
+2023-08-29 19:08:29,564 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin getCentros
+2023-08-29 19:15:20,947 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-29 19:15:20,953 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-29 19:15:20,961 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-29 19:15:33,315 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-08-29 19:15:33,321 INFO org.springframework.boot.StartupInfoLogger [main] Starting GesresfamilyApplication using Java 17.0.5 on Albertrodtab with PID 18492 (D:\DAM 22_23\AD\gesresfamily2EV\target\classes started by albertrodtab in D:\DAM 22_23\AD\gesresfamily2EV)
+2023-08-29 19:15:33,322 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-29 19:15:33,741 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-29 19:15:33,742 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-29 19:15:33,759 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.CentroRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-08-29 19:15:33,760 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.FamiliarRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-08-29 19:15:33,762 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.PlanRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-08-29 19:15:33,763 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ProfesionalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-08-29 19:15:33,764 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.alberto.gesresfamily.repository.ResidenteRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-08-29 19:15:33,765 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+2023-08-29 19:15:33,770 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-29 19:15:33,770 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-29 19:15:33,798 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 24 ms. Found 5 JPA repository interfaces.
+2023-08-29 19:15:34,166 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-29 19:15:34,174 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-29 19:15:34,175 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-29 19:15:34,175 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-08-29 19:15:34,257 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-29 19:15:34,257 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 897 ms
+2023-08-29 19:15:34,351 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-29 19:15:34,388 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-08-29 19:15:34,483 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-29 19:15:34,537 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-29 19:15:34,790 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-29 19:15:34,807 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-08-29 19:15:35,344 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-29 19:15:35,350 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-29 19:15:35,598 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-29 19:15:35,780 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-29 19:15:35,797 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-29 19:15:35,803 INFO org.springframework.boot.StartupInfoLogger [main] Started GesresfamilyApplication in 2.711 seconds (JVM running for 3.034)
+2023-08-29 19:15:43,516 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-29 19:15:43,517 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-08-29 19:15:43,518 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-08-29 19:15:43,538 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-08-29 19:15:43,539 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-08-29 19:15:43,636 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-08-29 19:20:22,745 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-08-29 19:20:22,746 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-08-29 19:20:22,751 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-08-29 19:20:31,214 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio removeCentro
+2023-08-29 19:20:31,266 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin removeCentro
+2023-08-29 19:20:48,044 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio removeCentro
+2023-08-29 19:20:48,049 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin removeCentro
+2023-08-29 19:21:09,838 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-08-29 19:21:09,838 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-08-29 19:21:09,842 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-08-29 20:31:14,036 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-08-29 20:31:14,036 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-08-29 20:31:14,041 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-08-29 20:31:14,041 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-08-29 20:31:14,079 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-08-29 20:31:14,079 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-08-29 20:31:21,151 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-08-29 20:31:21,151 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-08-29 20:31:21,159 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-08-29 21:21:17,207 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-08-29 21:21:17,208 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-08-29 21:21:17,214 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-08-29 21:22:03,502 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio addCentro
+2023-08-29 21:22:03,525 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin addCentro
+2023-08-29 21:22:15,553 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Inicio getCentros
+2023-08-29 21:22:15,554 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Muestra todos los centros
+2023-08-29 21:22:15,561 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Fin getCentros
+2023-08-29 22:10:32,093 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Inicio getCentros
+2023-08-29 22:10:32,094 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Muestra todos los centros
+2023-08-29 22:10:32,097 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-10] Fin getCentros
+2023-08-29 22:11:09,181 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Inicio modifyCentro
+2023-08-29 22:11:09,228 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-5] Fin modifyCentro
+2023-08-29 22:11:33,130 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio getCentros
+2023-08-29 22:11:33,131 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Muestra todos los centros
+2023-08-29 22:11:33,134 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin getCentros
+2023-08-29 22:11:40,065 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio removeCentro
+2023-08-29 22:11:40,071 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin removeCentro
+2023-08-29 22:12:33,835 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio addCentro
+2023-08-29 22:12:33,839 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin addCentro
+2023-08-29 22:12:50,992 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-08-29 22:12:50,993 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-08-29 22:12:50,996 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-08-29 22:15:19,075 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-08-29 22:15:19,077 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-08-29 22:15:19,081 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-08-29 22:15:24,055 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-08-29 22:15:24,056 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-08-29 22:15:24,065 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-08-29 22:15:27,406 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-08-29 22:15:27,407 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-08-29 22:15:27,409 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-08-29 22:15:59,237 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio modifyCentro
+2023-08-29 22:15:59,245 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin modifyCentro
+2023-08-29 22:16:01,862 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Inicio getCentros
+2023-08-29 22:16:01,863 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Muestra todos los centros
+2023-08-29 22:16:01,866 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-9] Fin getCentros
+2023-08-29 22:16:20,129 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio getCentros
+2023-08-29 22:16:20,130 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Muestra todos los centros
+2023-08-29 22:16:20,133 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin getCentros
+2023-08-29 22:19:24,673 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-08-29 22:19:24,674 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-08-29 22:19:24,677 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-08-29 22:19:31,989 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Inicio getProfesionales
+2023-08-29 22:19:31,989 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Muestra todos los profesionales
+2023-08-29 22:19:31,993 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-8] Fin getProfesinales
+2023-08-29 22:19:39,341 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-08-29 22:19:39,342 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-08-29 22:19:39,345 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-08-29 22:19:43,834 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-3] Inicio getResidentes
+2023-08-29 22:19:43,835 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-3] Muestra todos los residentes
+2023-08-29 22:29:01,631 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-08-29 22:29:01,632 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-08-29 22:29:01,635 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-08-29 22:29:24,072 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Inicio modifyCentro
+2023-08-29 22:29:24,079 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-7] Fin modifyCentro
+2023-08-29 22:29:26,556 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Inicio getCentros
+2023-08-29 22:29:26,557 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Muestra todos los centros
+2023-08-29 22:29:26,559 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-2] Fin getCentros
+2023-08-29 22:29:52,678 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Inicio modifyCentro
+2023-08-29 22:29:52,683 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-8] Fin modifyCentro
+2023-08-29 22:29:57,150 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Inicio getCentros
+2023-08-29 22:29:57,150 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Muestra todos los centros
+2023-08-29 22:29:57,153 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-4] Fin getCentros
+2023-08-29 22:30:21,358 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Inicio modifyCentro
+2023-08-29 22:30:21,362 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-1] Fin modifyCentro
+2023-08-29 22:30:22,859 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-08-29 22:30:22,859 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-08-29 22:30:22,863 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-08-29 22:30:36,053 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Inicio getCentros
+2023-08-29 22:30:36,053 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Muestra todos los centros
+2023-08-29 22:30:36,060 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-6] Fin getCentros
+2023-08-29 22:30:37,828 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-08-29 22:30:37,829 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-08-29 22:30:37,831 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-08-29 22:30:40,627 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-2] Inicio getResidentes
+2023-08-29 22:30:40,627 INFO com.alberto.gesresfamily.controller.ResidenteController [http-nio-8080-exec-2] Muestra todos los residentes
+2023-08-29 22:30:46,587 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Inicio getProfesionales
+2023-08-29 22:30:46,588 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Muestra todos los profesionales
+2023-08-29 22:30:46,591 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-6] Fin getProfesinales

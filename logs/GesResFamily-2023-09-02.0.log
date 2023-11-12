@@ -1,0 +1,35 @@
+2023-09-02 12:12:11,613 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Inicio getCentros
+2023-09-02 12:12:11,613 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Inicio getProfesionales
+2023-09-02 12:12:11,791 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Muestra todos los profesionales
+2023-09-02 12:12:11,791 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Muestra todos los centros
+2023-09-02 12:12:11,801 INFO com.alberto.gesresfamily.controller.CentroController [http-nio-8080-exec-3] Fin getCentros
+2023-09-02 12:12:12,262 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-5] Fin getProfesinales
+2023-09-02 12:12:19,055 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h9m31s880ms233µs700ns).
+2023-09-02 12:41:38,459 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-09-02 12:41:38,460 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-09-02 12:41:38,463 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-09-02 12:41:42,606 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-09-02 12:41:42,607 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-09-02 12:41:42,608 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-09-02 12:43:19,980 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Inicio getProfesionales
+2023-09-02 12:43:19,981 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Muestra todos los profesionales
+2023-09-02 12:43:19,983 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-4] Fin getProfesinales
+2023-09-02 12:43:25,521 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Inicio getProfesionales
+2023-09-02 12:43:25,521 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Muestra todos los profesionales
+2023-09-02 12:43:25,522 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-10] Fin getProfesinales
+2023-09-02 12:43:34,650 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Inicio getProfesionales
+2023-09-02 12:43:34,650 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Muestra todos los profesionales
+2023-09-02 12:43:34,652 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-3] Fin getProfesinales
+2023-09-02 12:44:14,477 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Inicio getProfesionales
+2023-09-02 12:44:14,478 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Muestra todos los profesionales
+2023-09-02 12:44:14,482 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-2] Fin getProfesinales
+2023-09-02 12:44:16,714 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Inicio getProfesionales
+2023-09-02 12:44:16,714 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Muestra todos los profesionales
+2023-09-02 12:44:16,716 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-1] Fin getProfesinales
+2023-09-02 12:44:41,653 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Inicio getProfesionales
+2023-09-02 12:44:41,653 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Muestra todos los profesionales
+2023-09-02 12:44:41,655 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-9] Fin getProfesinales
+2023-09-02 12:44:44,613 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Inicio getProfesionales
+2023-09-02 12:44:44,614 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Muestra todos los profesionales
+2023-09-02 12:44:44,615 INFO com.alberto.gesresfamily.controller.ProfesionalController [http-nio-8080-exec-7] Fin getProfesinales
+2023-09-02 19:31:27,634 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h28m35s831ms271µs).

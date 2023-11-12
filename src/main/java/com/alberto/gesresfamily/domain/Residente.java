@@ -37,7 +37,7 @@ public class Residente {
     @Pattern(regexp = "[0-9]{7,8}[A-Za-z]", message= "Escribe un dni Válido")
     private String dni;
     @Column (name = "fecha_nacimiento")
-    @JsonFormat(pattern = "dd-MM-yyyy")
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate fechaNacimiento;
     @Column
     @NotBlank(message = "El campo sexo es obligatorio")
@@ -47,6 +47,8 @@ public class Residente {
     @NumberFormat(style = NumberFormat.Style.NUMBER)
     @Min(value = 0)
     private float saldo;
+    @Column
+    private String photoUri;
 
     @ManyToOne
     @JoinColumn(name = "centro_id")
