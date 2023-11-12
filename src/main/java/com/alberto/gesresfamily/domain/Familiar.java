@@ -53,4 +53,7 @@ public class Familiar {
     //para evitar serializaciones Pero tengo que mejorarlo todavía.
     @JsonBackReference(value = "familiarResidente")
     private List<Residente> residentes;
+
+    @OneToMany(mappedBy = "foto")
+    private List<Foto> fotos;
 }
