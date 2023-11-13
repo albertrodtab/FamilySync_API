@@ -39,6 +39,12 @@ public class Familiar {
     private LocalDate fechaNacimiento;
     @Column
     private String telefono;
+    @Column
+    @NotBlank(message="El mail no puede estar vacío")
+    @Pattern(regexp = "^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@"
+            + "[^-][A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$", message= "Escribe un correo válido, ejemplo:" +
+            "user.name@domain.com, username@domain.com")
+    private String email;
 
     @ManyToMany(cascade = {
             CascadeType.PERSIST,
@@ -54,6 +60,6 @@ public class Familiar {
     @JsonBackReference(value = "familiarResidente")
     private List<Residente> residentes;
 
-    @OneToMany(mappedBy = "foto")
+    @OneToMany(mappedBy = "familiar")
     private List<Foto> fotos;
 }
