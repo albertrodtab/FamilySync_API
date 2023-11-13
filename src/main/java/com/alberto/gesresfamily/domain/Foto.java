@@ -31,7 +31,7 @@ public class Foto {
     @ManyToOne
     @JoinColumn(name = "familiar_id")
     @JsonBackReference(value = "fotofamiliar")
-    private Foto foto;
+    private Familiar familiar;
 
 
 
