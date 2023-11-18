@@ -44,7 +44,13 @@ public class JWTAutenticationFilter extends UsernamePasswordAuthenticationFilter
         UserDetailsImpl userDetails = (UserDetailsImpl) authResult.getPrincipal();
         String token = TokenUtils.createToken(userDetails.getNombre(), userDetails.getUsername());
 
+        // Agrega el token al encabezado
         response.addHeader("Authorization", "Bearer " + token);
+
+        // Envía la respuesta personalizada
+        response.setStatus(HttpServletResponse.SC_OK);
+        response.setContentType("application/json");
+        response.getWriter().write("{\"message\": \"Logeado correctamente\", \"token\": \"" + token + "\"}");
         response.getWriter().flush();
 
         super.successfulAuthentication(request, response, chain, authResult);

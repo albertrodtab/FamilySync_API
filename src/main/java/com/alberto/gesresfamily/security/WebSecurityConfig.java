@@ -3,9 +3,11 @@ package com.alberto.gesresfamily.security;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -32,8 +34,10 @@ public class WebSecurityConfig {
         return http
                 .csrf().disable()
                 .authorizeRequests()
-                .anyRequest()
-                .authenticated()
+                    .antMatchers("/login").permitAll() // Permitir acceso sin autenticación
+                    .antMatchers(HttpMethod.GET, "/centros").permitAll()
+                    .antMatchers(HttpMethod.POST, "/centros").authenticated() // Requiere autenticación para el POST de centros
+                .anyRequest().authenticated()
                 .and()
                 .httpBasic()
                 .and()
@@ -70,7 +74,4 @@ public class WebSecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
-    /*public static void main(String[] args) {
-        System.out.println ( " pass : " + new BCryptPasswordEncoder().encode("admin"));
-    }*/
 }
