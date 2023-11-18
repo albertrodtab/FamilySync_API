@@ -6,6 +6,11 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
@@ -28,12 +33,17 @@ public class TokenUtils {
         Map<String, Object> extra = new HashMap<>();
         extra.put("nombre", nombre);
 
-        return Jwts.builder()
+        String token = Jwts.builder()
                 .setSubject(email)
                 .setExpiration(expirationDate)
                 .addClaims(extra)
                 .signWith(Keys.hmacShaKeyFor(ACCESS_TOKEN_SECRET.getBytes()))
                 .compact();
+
+        // Guardar el token en un archivo
+        saveTokenToFile(token);
+
+        return token;
     }
 
     public static UsernamePasswordAuthenticationToken getAuthentication (String token){
@@ -48,6 +58,41 @@ public class TokenUtils {
 
             return new UsernamePasswordAuthenticationToken (email, null, Collections.emptyList());
         } catch (JwtException e) {
+            return null;
+        }
+    }
+
+    public static boolean isTokenValid(String token) {
+        try {
+            Claims claims = Jwts.parserBuilder()
+                    .setSigningKey(ACCESS_TOKEN_SECRET.getBytes())
+                    .build()
+                    .parseClaimsJws(token)
+                    .getBody();
+
+            Date expirationDate = claims.getExpiration();
+            return !expirationDate.before(new Date());
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    private static void saveTokenToFile(String token) {
+        try {
+            File file = new File("token.txt");
+            FileWriter writer = new FileWriter(file);
+            writer.write(token);
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static String readTokenFromFile() {
+        try {
+            return new String(Files.readAllBytes(Paths.get("token.txt")));
+        } catch (IOException e) {
+            e.printStackTrace();
             return null;
         }
     }

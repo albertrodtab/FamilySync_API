@@ -1,0 +1,65 @@
+En Postman, puedes configurar variables globales o de entorno para almacenar y reutilizar valores, como tokens,
+en varias solicitudes. Aquí hay una guía paso a paso para configurar una variable global para tu token:
+
+Crear una variable global:
+
+Abre Postman y ve a la pestaña "Manage Environments" (Gestionar entornos) en la esquina superior derecha.
+Postman Environments
+
+Haz clic en "Add" (Agregar) para crear un nuevo entorno.
+
+Asigna un nombre al nuevo entorno, por ejemplo, "MiEntorno". Luego, agrega una variable llamada "token" y déjala vacía por ahora.
+
+Haz clic en "Add" para guardar el entorno.
+Configurar el valor de la variable en tu solicitud de inicio de sesión:
+
+En tu solicitud de inicio de sesión, después de recibir el token, ve a la pestaña "Tests" y agrega un script que establecerá
+el valor de la variable.
+javascript
+
+var jsonData = pm.response.json();
+pm.environment.set("token", jsonData.token);
+
+Este script asume que el token se encuentra en la propiedad "token" del cuerpo de la respuesta JSON. Ajusta el script según la estructura real de tu respuesta.
+
+Guarda la solicitud.
+Usar la variable en otras solicitudes:
+
+En otras solicitudes donde necesitas enviar el token, puedes referenciar la variable global utilizando la sintaxis {{token}}
+en el encabezado "Authorization" o donde sea necesario.
+
+Al utilizar variables de entorno de esta manera, solo necesitas actualizar el valor de la variable en un solo lugar
+(en este caso, en el script de prueba de la solicitud de inicio de sesión), y se reflejará automáticamente en todas
+las demás solicitudes que utilizan esa variable.
+
+Si el token está presente en el encabezado de la respuesta y no en el cuerpo, puedes modificar el script en la pestaña
+"Tests" de tu solicitud para extraerlo del encabezado y guardarlo en una variable de entorno. Aquí tienes un ejemplo de
+cómo hacerlo:
+
+javascript
+
+// Obtener el valor del encabezado 'Authorization'
+var authHeader = pm.response.headers.get('Authorization');
+
+// Verificar si el encabezado 'Authorization' está presente
+if (authHeader) {
+    // Extraer el token del encabezado
+    var token = authHeader.replace('Bearer ', '');
+
+    // Guardar el token en la variable de entorno 'token'
+    pm.environment.set("token", token);
+    console.log("Token guardado en la variable de entorno 'token'.");
+
+    // Guardar el token en la variable de la colección 'miToken'
+    pm.collectionVariables.set("miToken", token);
+    console.log("Token guardado en la variable de colección 'miToken'.");
+} else {
+    console.log("No se encontró el token en el encabezado 'Authorization'.");
+}
+Este script busca el valor del encabezado 'Authorization' y, si está presente, extrae el token y lo guarda en la variable
+de entorno 'token'. Ten en cuenta que en este ejemplo se asume que el valor del encabezado 'Authorization' tiene el
+formato 'Bearer [token]'. Ajusta el script según la estructura real de tus encabezados.
+
+Guarda este script en la pestaña "Tests" de la solicitud de inicio de sesión en Postman. Después de ejecutar la solicitud,
+el token se guardará en la variable de entorno 'token', y puedes referenciar esta variable en otras solicitudes según sea
+necesario.
